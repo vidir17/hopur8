@@ -32,15 +32,15 @@ int main()
 }
 
 SuperHero::SuperHero(){
-    name = " ";
+    name = "";
     age = 0;
     superpower = 'n';
 }
 
 SuperHero::SuperHero(string name, int age, char superpower){
-    name = name;
-    age = age;
-    superpower = superpower;
+    this->name = name;
+    this->age = age;
+    this->superpower = superpower;
 
 }
 
