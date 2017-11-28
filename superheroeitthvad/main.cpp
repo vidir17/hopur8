@@ -13,7 +13,7 @@ class SuperHero {
 
         string name;
         int age;
-        char superpower[];
+        char superpower;
 
     public:
         SuperHero();
@@ -48,13 +48,13 @@ int main()
 SuperHero::SuperHero(){
     name = "";
     age = 0;
-    superpower[0] = 'n';
+    superpower = 'n';
 }
 
 SuperHero::SuperHero(string name, int age, char superpower){
     this->name = name;
     this->age = age;
-    this->superpower[0] = superpower;
+    this->superpower = superpower;
 
 }
 string SuperHero::get_name(){
@@ -70,21 +70,21 @@ int SuperHero::get_age(){
 char SuperHero::get_superpower(char input){
 
     if(input == 'f'){
-        superpower[0] == 'Flying';
+        superpower == 'Flying';
     }
     else if(input == 'g'){
-        superpower[0] == 'Giant';
+        superpower == 'Giant';
     }
     else if(input == 'h'){
-        superpower[0] == 'Hacker';
+        superpower == 'Hacker';
     }
     else if(input == 'n'){
-        superpower[0] == 'None';
+        superpower == 'None';
     }
     else
-        superpower[0] == 'Weakling';
+        superpower == 'Weakling';
 
-    return superpower[0];
+    return superpower;
 
 }
 istream& operator >> (istream& in, SuperHero& superhero){
@@ -109,16 +109,16 @@ ostream& operator << (ostream& out, const SuperHero& superhero){
 
 
         out << endl;
-    if(superhero.superpower[0] == 'f'){
+    if(superhero.superpower == 'f'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Flying" << endl;
     }
-    else if(superhero.superpower[0] == 'g'){
+    else if(superhero.superpower == 'g'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Giant" << endl;
     }
-    else if(superhero.superpower[0] == 'h'){
+    else if(superhero.superpower == 'h'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Hacker" << endl;
     }
-    else if(superhero.superpower[0] == 'n'){
+    else if(superhero.superpower == 'n'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "None" << endl;
     }
     else{
