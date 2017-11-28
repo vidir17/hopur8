@@ -1,0 +1,12 @@
+Nafn: Halldor
+Aldur: 900
+Superpower: s
+
+Nafn: Bjoggi
+Aldur: 98
+Superpower: f
+
+Nafn: halldor
+Aldur: 999
+Superpower: s
+
