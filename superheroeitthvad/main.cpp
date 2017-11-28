@@ -1,37 +1,72 @@
-#include <iostream>
-#include <string>
+#include <iostream> //kodi sem var commentadur ut er vegna i lid
+#include <string>   //ii lidurinn og i lidur er i raun sameinadur i thessu
 #include <fstream>
-
-
-
 using namespace std;
-
-
 class SuperHero {
-
     private:
-
-        string name;
+        char name[20];
         int age;
         char superpower;
 
+
     public:
         SuperHero();
-        SuperHero(string name, int age, char superpower);
+        SuperHero(char name, int age, char superpower);
+
 
         friend istream& operator >> (istream& in, SuperHero& superhero);
         friend ostream& operator << (ostream& out, const SuperHero& superhero);
         string get_name(); //skilar til baka fra private
         int get_age();
         char get_superpower(char input);
-
-
-
 };
 
 int main()
 {
+
     SuperHero bjoggi;
+    cin >> bjoggi;
+    ofstream fout;
+    fout.open("binary.dat", ios::binary|ios::app);
+    fout.write((char*)(&bjoggi), sizeof(SuperHero));
+    fout.close();
+    SuperHero kari;
+    ifstream fin;
+    fin.open("binary.dat", ios::binary|ios::app);
+    fin.seekg(0,fin.end);//finnur enda
+    int records = fin.tellg()/sizeof(SuperHero); //size
+    fin.seekg(0,fin.beg); //beginning
+    SuperHero *data = new SuperHero[records];
+
+    if(fin.is_open()){
+        fin.read((char*)data, sizeof (SuperHero)*records);
+        for(int i = 0; i < records; i++){
+
+        cout << data[i] << endl;
+        }
+    }else{
+        cout << "could not open file" << endl;
+    }
+    fin.close();
+    /*for(int i = 0; i < records; i++){
+        cout << data[i] << endl;
+    }*/
+    delete[] data;
+
+
+    /* COMMENT: FYRSTI LIÐURINN (tokum ut til ad gera fyrir test)
+    SuperHero bjoggi;
+    ifstream fin;
+    ofstream fout;
+    cin >> bjoggi;
+    fin.open("binary_file_SuperHero.dat", ios::binary);
+    fout.open("binary_file_SuperHero.dat", ios::app);
+        fout << bjoggi << endl;
+    fout.close();
+    cout << bjoggi;
+
+
+ SuperHero bjoggi;
     ofstream fout;
     cin >> bjoggi;
 
@@ -42,22 +77,24 @@ int main()
     //}
     fout.close();
     cout << bjoggi;
+
+*/
     return 0;
 }
 
 SuperHero::SuperHero(){
-    name = "";
+    name[0] = '\0';
     age = 0;
     superpower = 'n';
 }
 
-SuperHero::SuperHero(string name, int age, char superpower){
+/*SuperHero::SuperHero( char name, int age, char superpower){
     this->name = name;
     this->age = age;
     this->superpower = superpower;
 
 }
-string SuperHero::get_name(){
+char SuperHero::get_name(){
 
     return name;
 
@@ -66,12 +103,11 @@ int SuperHero::get_age(){
 
     return age;
 
-}
-
+}*/
 istream& operator >> (istream& in, SuperHero& superhero){
-
     cout << "Nafn: ";
-    getline(in, superhero.name);
+    //getline(in, superhero.name);
+    in >> superhero.name;
     cout << "Aldur: ";
     in >> superhero.age;
     cout << "Type f for Flying" << endl;
@@ -82,14 +118,9 @@ istream& operator >> (istream& in, SuperHero& superhero){
     cout << "Superpower: ";
     in >> superhero.superpower;
 
-
     return in;
-
 }
 ostream& operator << (ostream& out, const SuperHero& superhero){
-
-
-
 
     if(superhero.superpower == 'f'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Flying" << endl;
@@ -107,8 +138,5 @@ ostream& operator << (ostream& out, const SuperHero& superhero){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Weakling" << endl;
     }
 
-
-
     return out;
-
 }
