@@ -67,30 +67,11 @@ int SuperHero::get_age(){
     return age;
 
 }
-char SuperHero::get_superpower(char input){
 
-    if(input == 'f'){
-        superpower == 'Flying';
-    }
-    else if(input == 'g'){
-        superpower == 'Giant';
-    }
-    else if(input == 'h'){
-        superpower == 'Hacker';
-    }
-    else if(input == 'n'){
-        superpower == 'None';
-    }
-    else
-        superpower == 'Weakling';
-
-    return superpower;
-
-}
 istream& operator >> (istream& in, SuperHero& superhero){
 
     cout << "Nafn: ";
-    in >> superhero.name;
+    getline(in, superhero.name);
     cout << "Aldur: ";
     in >> superhero.age;
     cout << "Type f for Flying" << endl;
@@ -108,7 +89,8 @@ istream& operator >> (istream& in, SuperHero& superhero){
 ostream& operator << (ostream& out, const SuperHero& superhero){
 
 
-        out << endl;
+
+
     if(superhero.superpower == 'f'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Flying" << endl;
     }
