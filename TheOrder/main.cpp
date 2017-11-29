@@ -1,11 +1,13 @@
 #include <iostream>
-//#include <
+#include <fstream>
 #include <stdlib.h>
 using namespace std;
 
 int main()
 {
+    string c;
     int a;
+    ifstream fin;
     cout << "Velkomin/n a Pizza Menntavegi 1" << endl;
     cout << endl;
     cout << "       ##############" << endl;
@@ -50,3 +52,19 @@ int main()
 
     return 0;
 }
+
+
+/*
+    fin.open("matsedill.txt");
+    if(fin.is_open()){
+        while(!fin.eof()){
+
+        fin >> c;
+        cout << c << endl;
+        }
+
+    fin.close();
+    }else{
+        cout << "Unable to read from file!" << endl;
+    }
+    */

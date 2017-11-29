@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511969503 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
