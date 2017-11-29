@@ -21,7 +21,7 @@ istream& operator >> (istream& in, SuperHero& superhero){
     cout << "Bjorgvin (27): Hacker" << endl;
     cout << "Hero must be 1 years old or older." << endl;
     cout << "Name length must be less or equal to 20 characters." << endl;
-    cout << "-----------------------------------------------" << endl;
+    cout << "---------------------------------------------------" << endl;
     cout << endl;
     cout << "Name: ";
 
