@@ -1,0 +1,9 @@
+Pizza 	 	Price
+mon 	 0
+mon 	 2.07892e-316
+mon 	 7.71335e-314
+mon 	 3.46413e-317
+Pizza 	 	Price
+mon 	 1
+bon 	 2
+son 	 3
