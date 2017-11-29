@@ -1,7 +1,9 @@
-#include <iostream> //kodi sem var commentadur ut er vegna i lid
+#include <iostream> //kodi sem var commentadur ut er vegna i lid en thetta forrit a vid baedi i og ii
 #include <string>   //ii lidurinn og i lidur er i raun sameinadur i thessu
 #include <fstream>
 #include <superhero.h>
+
+
 using namespace std;
 
 
@@ -26,7 +28,7 @@ int main()
         fin.read((char*)data, sizeof (SuperHero)*records);
         for(int i = 0; i < records; i++){
 
-        cout << data[i] << endl;
+        cout << data[i];
         }
     }else{
         cout << "could not open file" << endl;

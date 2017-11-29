@@ -14,9 +14,9 @@ int main()
         if(fout.is_open()){
         while(run){
 
-            getline(cin, input);
+            getline(cin, input); //thetta er i raun cin fyrir input og haegt ad skrifa i heila linu adur en ytt er a enter
             if (input.compare(0,1,"\\") == 0) {  //utaf string include .compare
-                break;
+                break; //ef thad er skrifad "backslash" sem er "\" tha endar forritid
             }else{
             fout << input << endl;
             }

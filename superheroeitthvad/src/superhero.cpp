@@ -12,10 +12,23 @@ SuperHero::~SuperHero()
 
 }
 istream& operator >> (istream& in, SuperHero& superhero){
-    cout << "Nafn: ";
+    cout << "Type name of hero, age and superpower, example:" << endl;
+    cout << "Name: Bjorgvin" << endl;
+    cout << "Age: 27" << endl;
+    cout << "Superpower: h" << endl;
+    cout << endl;
+    cout << "Example output: " << endl;
+    cout << "Bjorgvin (27): Hacker" << endl;
+    cout << "-----------------------------------------------" << endl;
+    cout << endl;
+    cout << "Name: ";
+
     //getline(in, superhero.name);
     //in >> superhero.name;
-    in.get(superhero.name,20); //virkar fyrir bil lika
+    in.get(superhero.name,20);
+
+
+
     /*if(superhero.name > in.get(superhero.name, 20)){
       cout << "wtf";
     }*/
@@ -23,7 +36,7 @@ istream& operator >> (istream& in, SuperHero& superhero){
         cout << "invalid input";
         return 0;
     }*/
-    cout << "Aldur: ";
+    cout << "Age: ";
     in >> superhero.age;
     cout << "Type f for Flying" << endl;
     cout << "Type g for Giant" << endl;
@@ -37,7 +50,10 @@ istream& operator >> (istream& in, SuperHero& superhero){
 }
 ostream& operator << (ostream& out, const SuperHero& superhero){
 
+    if(superhero.age <= 0){
 
+        return out;
+    }
     if(superhero.superpower == 'f'){
         out << superhero.name << " " << "(" << superhero.age << "): " << "Flying" << endl;
     }
@@ -53,6 +69,6 @@ ostream& operator << (ostream& out, const SuperHero& superhero){
     else{
         out << superhero.name << " " << "(" << superhero.age << "): " << "Weakling" << endl;
     }
-
+        out << endl;
     return out;
 }
