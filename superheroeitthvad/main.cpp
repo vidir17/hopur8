@@ -1,25 +1,9 @@
 #include <iostream> //kodi sem var commentadur ut er vegna i lid
 #include <string>   //ii lidurinn og i lidur er i raun sameinadur i thessu
 #include <fstream>
+#include <superhero.h>
 using namespace std;
-class SuperHero {
-    private:
-        char name[20];
-        int age;
-        char superpower;
 
-
-    public:
-        SuperHero();
-        SuperHero(char name, int age, char superpower);
-
-
-        friend istream& operator >> (istream& in, SuperHero& superhero);
-        friend ostream& operator << (ostream& out, const SuperHero& superhero);
-        string get_name(); //skilar til baka fra private
-        int get_age();
-        char get_superpower(char input);
-};
 
 int main()
 {
@@ -82,11 +66,7 @@ int main()
     return 0;
 }
 
-SuperHero::SuperHero(){
-    name[0] = '\0';
-    age = 0;
-    superpower = 'n';
-}
+
 
 /*SuperHero::SuperHero( char name, int age, char superpower){
     this->name = name;
@@ -104,39 +84,4 @@ int SuperHero::get_age(){
     return age;
 
 }*/
-istream& operator >> (istream& in, SuperHero& superhero){
-    cout << "Nafn: ";
-    //getline(in, superhero.name);
-    in >> superhero.name;
-    cout << "Aldur: ";
-    in >> superhero.age;
-    cout << "Type f for Flying" << endl;
-    cout << "Type g for Giant" << endl;
-    cout << "Type h for Hacker" << endl;
-    cout << "Type n for None" << endl;
-    cout << "please enter superpower..." << endl;
-    cout << "Superpower: ";
-    in >> superhero.superpower;
 
-    return in;
-}
-ostream& operator << (ostream& out, const SuperHero& superhero){
-
-    if(superhero.superpower == 'f'){
-        out << superhero.name << " " << "(" << superhero.age << "): " << "Flying" << endl;
-    }
-    else if(superhero.superpower == 'g'){
-        out << superhero.name << " " << "(" << superhero.age << "): " << "Giant" << endl;
-    }
-    else if(superhero.superpower == 'h'){
-        out << superhero.name << " " << "(" << superhero.age << "): " << "Hacker" << endl;
-    }
-    else if(superhero.superpower == 'n'){
-        out << superhero.name << " " << "(" << superhero.age << "): " << "None" << endl;
-    }
-    else{
-        out << superhero.name << " " << "(" << superhero.age << "): " << "Weakling" << endl;
-    }
-
-    return out;
-}

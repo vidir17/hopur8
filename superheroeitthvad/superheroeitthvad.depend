@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1511888878 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\superheroeitthvad\main.cpp
+1511961199 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\superheroeitthvad\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<superhero.h>
+
+1511961227 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\superheroeitthvad\include\superhero.h
 	<iostream>
 	<string>
 	<fstream>
