@@ -4,7 +4,6 @@ using namespace std;
 class Notandi{
 private:
     string user;
-    int age;
     string password;
 public:
 
