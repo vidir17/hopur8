@@ -19,6 +19,8 @@ istream& operator >> (istream& in, SuperHero& superhero){
     cout << endl;
     cout << "Example output: " << endl;
     cout << "Bjorgvin (27): Hacker" << endl;
+    cout << "Hero must be 1 years old or older." << endl;
+    cout << "Name length must be less or equal to 20 characters." << endl;
     cout << "-----------------------------------------------" << endl;
     cout << endl;
     cout << "Name: ";
@@ -50,7 +52,7 @@ istream& operator >> (istream& in, SuperHero& superhero){
 }
 ostream& operator << (ostream& out, const SuperHero& superhero){
 
-    if(superhero.age <= 0){
+    if(superhero.age <= 0){ //Ef innslattur er rangur
 
         return out;
     }
