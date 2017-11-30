@@ -20,12 +20,13 @@ int main()
             }else{
             fout << input << endl;
             }
-            fout.close();
+
     }
         }else{
             cout << "File could not be opened!" << endl;
             run = false;
         }
+        fout.close();
 
 
     return 0;
