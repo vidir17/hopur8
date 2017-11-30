@@ -1,6 +1,24 @@
 # depslib dependency file v1.0
-1511969503 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+1512045463 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+	<mainui.h>
+
+1512051769 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+	<iostream>
+	"mainui.h"
+	"matsedill.h"
+
+1512049406 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
+
+1512051650 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\matsedill.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+
+1512051674 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
+	<iostream>
+	"matsedill.h"
+	"mainui.h"
 
