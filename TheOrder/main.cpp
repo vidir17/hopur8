@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+
     MainUI user;
     cout << user;
     cin >> user;

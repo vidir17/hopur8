@@ -1,0 +1,10 @@
+	Matsedill
+***************************
+####### Pizza MENU ########
+***************************
+
+Pizza Margarita("16)..100kr
+ ~Pizza sósa og ostur
+
+Pizza Nautabani("12)..100kr
+ ~Hakk, pepperoni og pulsa

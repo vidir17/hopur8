@@ -13,12 +13,17 @@ Matsedill::Matsedill(int getChoice){
 }
  ostream& operator << (ostream& out, Matsedill& matsedill){
      system("CLS");
-     out << "hallo";
+
+     out << "Pizza med pepperoni og skinku" << endl;
+     out << "Pizza margarita" << endl;
+     out << "Press 8 to go back" << endl;
      return out;
 
  }
+
  istream& operator >> (istream& in, Matsedill& matsedill){
      in >> matsedill.getChoice;
+
      return in;
  }
 

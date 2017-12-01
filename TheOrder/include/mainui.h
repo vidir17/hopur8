@@ -8,12 +8,13 @@ class MainUI{
 
 private:
     int choice;
+    string password;
 
 public:
 
 
     MainUI();
-    MainUI(int choice);
+    MainUI(int choice, string password);
     friend istream& operator >> (istream& in, MainUI& mainUI);
     friend ostream& operator << (ostream& out, MainUI& mainUI);
     int getChoice();
