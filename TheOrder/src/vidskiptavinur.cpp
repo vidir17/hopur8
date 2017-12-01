@@ -1,7 +1,8 @@
 #include "vidskiptavinur.h"
 #include <iostream>
 #include <fstream>
-#include "mainui.h"
+#include <stdlib.h>
+
 
 Vidskiptavinur::Vidskiptavinur()
 {
