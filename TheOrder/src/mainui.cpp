@@ -1,7 +1,8 @@
 #include <iostream>
 #include "mainui.h"
-#include "matsedill.h"
-using namespace std;
+//#include "matsedill.h"
+#include "vidskiptavinur.h"
+
 MainUI::MainUI()
 {
     choice = 0;
@@ -19,10 +20,10 @@ istream& operator >> (istream& in, MainUI& mainUI){
         cout << "1. Matsedill\n2. Bua til pizzu" << endl;
         in >> mainUI.choice;
         if(mainUI.choice == 1){
-            Matsedill matsedill;
-            cout << matsedill << endl;
-            in >> matsedill;
-            return in;
+            Vidskiptavinur vidskiptavin; //Vidskiptavinur breyta , Matsedill matsedill
+            //cout << vidskiptavin << endl;
+            in >> vidskiptavin;
+
         }
         }
         if(mainUI.choice == 2){ //Umsjonarmadur valinn
