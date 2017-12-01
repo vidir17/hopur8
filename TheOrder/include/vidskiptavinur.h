@@ -1,6 +1,7 @@
 #ifndef VIDSKIPTAVINUR_H
 #define VIDSKIPTAVINUR_H
 #include <iostream>
+#include "gagnagrunnur.h"
 using namespace std;
 
 class Vidskiptavinur

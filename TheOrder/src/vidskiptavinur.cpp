@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
+#include "controller1.h"
 
 
 Vidskiptavinur::Vidskiptavinur()
@@ -27,10 +28,12 @@ istream& operator >> (istream& in, Vidskiptavinur& vidskiptavinur)
     in >> vidskiptavinur.neytandi_velur;
     if(vidskiptavinur.neytandi_velur == 1)
     {
+        Gagnagrunnur gagnagrunnur;
         system("CLS");
-        cout << "MATSEDILL";
+        in >> gagnagrunnur;
+
     }
-    system("CLS");
+
     return in;
 }
 ostream& operator << (ostream& out, Vidskiptavinur& vidskiptavinur)

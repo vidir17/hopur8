@@ -5,7 +5,7 @@
 
 MainUI::MainUI()
 {
-    choice = 0;
+  choice = 0;
     password = "";
 }
 MainUI::MainUI(int choice, string password){
@@ -85,9 +85,9 @@ istream& operator >> (istream& in, MainUI& mainUI){
     ostream& operator << (ostream& out, MainUI& mainUI){
         out << "Velkomin/n a Pizza Menntavegi 1" << endl;
         out << endl;
-        out << "       ##############" << endl;
-        out << "       #PANTA PITSU?#" << endl;
-        out << "       ##############" << endl;
+        out << "       ###############" << endl;
+        out << "       #PONTUNARKERFI#" << endl;
+        out << "       ###############" << endl;
         out << "1. Panta pizzu" << endl;
         out << "2. Umsjonarmadur" << endl;
         out << "3. Bakarar" << endl;

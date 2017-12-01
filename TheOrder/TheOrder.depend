@@ -3,12 +3,12 @@
 	<mainui.h>
 	<iostream>
 
-1512131554 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+1512135289 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
 	<iostream>
 	"mainui.h"
 	"vidskiptavinur.h"
 
-1512131633 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
+1512131643 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -28,12 +28,28 @@
 
 1512053564 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\umsjonarmadur.h
 
-1512129920 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\vidskiptavinur.h
+1512132621 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\vidskiptavinur.h
 	<iostream>
+	"gagnagrunnur.h"
 
-1512131615 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\vidskiptavinur.cpp
+1512134697 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\vidskiptavinur.cpp
 	"vidskiptavinur.h"
 	<iostream>
 	<fstream>
 	<stdlib.h>
+	"controller1.h"
+
+1512134273 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\gagnagrunnur.h
+	<iostream>
+
+1512134297 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\gagnagrunnur.cpp
+	"gagnagrunnur.h"
+	<iostream>
+
+1512134691 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller1.cpp
+	"controller1.h"
+	<iostream>
+
+1512134691 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller1.h
+	<iostream>
 
