@@ -36,10 +36,11 @@
 		</Compiler>
 		<Unit filename="include/mainui.h" />
 		<Unit filename="include/matsedill.h" />
-		<Unit filename="include/umsjonarmadur.h" />
+		<Unit filename="include/umsjon.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/mainui.cpp" />
 		<Unit filename="src/matsedill.cpp" />
+		<Unit filename="src/umsjon.cpp" />
 		<Unit filename="src/umsjonarmadur.cpp" />
 		<Extensions>
 			<code_completion />
