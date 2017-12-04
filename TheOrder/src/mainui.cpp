@@ -1,7 +1,8 @@
 #include <iostream>
 #include "mainui.h"
-//#include "matsedill.h"
+#include "matsedill.h"
 #include "vidskiptavinur.h"
+
 
 MainUI::MainUI()
 {
