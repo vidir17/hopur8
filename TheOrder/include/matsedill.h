@@ -11,7 +11,7 @@ class Matsedill{
 public:
     int getChoice;
     Matsedill();
-    Matsedill(int getChoice);
+    void get_txt();
     friend istream& operator >> (istream& in, Matsedill& matsedill);
     friend ostream& operator << (ostream& out, Matsedill& matsedill);
 

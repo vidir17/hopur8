@@ -1,0 +1,34 @@
+Nr.1
+****
+Pizza: Americana
+Alegg: Beikonkur, cheddarostur, laukur, rauðlaukur, BBQ topping, Pulled Pork
+Staerd: 16 tommur
+Verd: 3595 kr
+
+Nr.2
+****
+Pizza: Graenmetis Paradis
+Alegg: Kirsuberjatomatar, svartar olifur, hvitlaukur, raudlaukur, spinat, sveppir
+Staerd: 16 tommur
+Verd: 3450 kr
+
+Nr.3
+****
+Pizza: Prima
+Alegg: Pepperoni, ferskur mozzarella, beikonsneidar, kirsuberjatomatar, basilpesto, svartur pipar
+Staerd: 16 tommur
+Verd: 3595 kr
+
+Nr.4
+****
+Pizza: Fiesta
+Alegg: Pepperoni, rjomaostur, ananas, hvitlaukur, oregano, sveppir
+Staerd: 16 tommur
+Verd: 3450 kr
+
+Nr.5
+****
+Pizza: Hvitlauksbraud
+Alegg: Enginn sosa, hvitlaukur, hvitlauksolia
+Staerd: 16 tommur
+Verd: 2110 kr

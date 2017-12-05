@@ -21,9 +21,9 @@ istream& operator >> (istream& in, MainUI& mainUI){
         cout << "1. Matsedill\n2. Bua til pizzu" << endl;
         in >> mainUI.choice;
         if(mainUI.choice == 1){
-            Vidskiptavinur vidskiptavin; //Vidskiptavinur breyta , Matsedill matsedill
+            Matsedill matsedill; //Vidskiptavinur breyta , Matsedill matsedill
             //cout << vidskiptavin << endl;
-            in >> vidskiptavin;
+            in >> matsedill;
 
         }
         }

@@ -3,7 +3,7 @@
 	<mainui.h>
 	<iostream>
 
-1512395934 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+1512480523 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
 	<iostream>
 	"mainui.h"
 	"matsedill.h"
@@ -14,15 +14,16 @@
 	<fstream>
 	<stdlib.h>
 
-1512051650 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\matsedill.h
+1512482600 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\matsedill.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 
-1512056538 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
+1512488977 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
 	<iostream>
 	"matsedill.h"
 	"mainui.h"
+	<fstream>
 
 1512053604 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjonarmadur.cpp
 	"umsjonarmadur.h"
@@ -107,4 +108,10 @@
 	<fstream>
 	<stdlib.h>
 	"controller1.h"
+
+1512481023 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\dataskra.cpp
+	"dataskra.h"
+
+1512480968 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\dataskra.h
+	"matsedill.h"
 
