@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1512469209 source:c:\users\vidirsnaer\desktop\new folder\skrifa\src\staff.cpp
+	"staff.h"
+	<string>
+
+1512469209 c:\users\vidirsnaer\desktop\new folder\skrifa\include\staff.h
+	<iostream>
+	<string>
+	<fstream>
+
+1512468887 source:c:\users\vidirsnaer\desktop\new folder\skrifa\main.cpp
+	<iostream>
+	"staff.h"
+	<fstream>
+	<string>
+

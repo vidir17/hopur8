@@ -13,15 +13,15 @@ class SuperHero {
 
     public:
         SuperHero();
-        ~SuperHero();
-        SuperHero(char name, int age, char superpower);
+        //~SuperHero();
+       // SuperHero(char name, int age, char superpower);
 
 
         friend istream& operator >> (istream& in, SuperHero& superhero);
         friend ostream& operator << (ostream& out, const SuperHero& superhero);
-        string get_name(); //skilar til baka fra private
-        int get_age();
-        char get_superpower(char input);
+       // string get_name(); //skilar til baka fra private
+        //int get_age();
+        //char get_superpower(char input);
 };
 
 

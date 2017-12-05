@@ -5,12 +5,12 @@ SuperHero::SuperHero(){
     age = 0;
     superpower = 'n';
 }
-SuperHero::~SuperHero()
+/*SuperHero::~SuperHero()
 {
     //dtor
 
 
-}
+}*/
 istream& operator >> (istream& in, SuperHero& superhero){
     cout << "Type name of hero, age and superpower, example:" << endl;
     cout << "Name: Bjorgvin" << endl;

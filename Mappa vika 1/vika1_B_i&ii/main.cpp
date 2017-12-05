@@ -16,7 +16,7 @@ int main()
     fout.open("binary.dat", ios::binary|ios::app);
     fout.write((char*)(&bjoggi), sizeof(SuperHero));
     fout.close();
-    SuperHero kari;
+    //SuperHero kari;
     ifstream fin;
     fin.open("binary.dat", ios::binary|ios::app);
     fin.seekg(0,fin.end);//finnur enda
