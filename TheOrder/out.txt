@@ -32,3 +32,10 @@ Pizza: Hvitlauksbraud
 Alegg: Enginn sosa, hvitlaukur, hvitlauksolia
 Staerd: 16 tommur
 Verd: 2110 kr
+
+Nr.6
+****
+Pizza: randompizza
+Alegg: random
+Staerd: 16 tommur
+Verd: 1337 kr

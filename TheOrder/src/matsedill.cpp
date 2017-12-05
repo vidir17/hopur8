@@ -6,7 +6,6 @@ using namespace std;
 Matsedill::Matsedill()
 {
     getChoice = 0;
-
 }
 void Matsedill::get_txt(){
 
@@ -21,95 +20,64 @@ void Matsedill::get_txt(){
     char ch1[100];
     int counter = 0;
     int input;
+    int counter2 = 0;
+    int teljari = 1;
 
     while(fin.getline(ch1, 100))
     {
-
-        //for(int i = 0; i < 100; i++){
       cout << ch1 << endl;
-
     }
     fin.close();
     cin >> input;
-
-         //if(fin.is_open()) //a medan skrain er opin
-    //{
-         //ef thad eru engar fleiri linur til ad birta tha breakar keyrslan a forritinu
         fin.open("out.txt");
         if(input == 1){
 
             system("CLS");
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << endl;
-            while(counter < 7){ //10 linur i einu
+            while(counter < 7){ //7 línur
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
         counter++; //plusa counter fyrir hverja linu upp i 10 linur
         }
         }
-        if(input == 2){
-                while(counter < 7){ //10 linur i einu
+        counter = 0;
+        if(input > 1){
+        while(input > teljari){
+            counter2 += 7;
+            while(counter < counter2){ //10 linur i einu
+
             getline(fin, ch); //naer i linu
+
              //prentar ut
         counter++; //plusa counter fyrir hverja linu upp i 10 linur
         }
+        teljari++;
+        }
+            counter = 0;
+            counter2 = 7;
             system("CLS");
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << endl;
-
-
-            while(counter < 14){ //10 linur i einu
+            while(counter < counter2){ //10 linur i einu
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
         counter++; //plusa counter fyrir hverja linu upp i 10 linur
+            if(fin.eof()){
+                break;
+            }
         }
         }
-
-
-
-    //}
     fin.close();
-
-
-
-
 }
-
  ostream& operator << (ostream& out, Matsedill& matsedill){
      system("CLS");
-
      out << "Matsedill" << endl;
      out << "veldu pizzu" << endl;
      out << "---------------" << endl;
      out << endl;
      matsedill.get_txt();
-
      return out;
-
  }
-
  istream& operator >> (istream& in, Matsedill& matsedill){
      cout << matsedill;
-     //cout gagnagrunni
-
-
-
-
-
-
      return in;
  }
-
-
-/*
-istream& operator >> (istream& in, Matsedill& matsedill){
-        in >> matsedill.choice;
-
-        system ("CLS");
-
-        }
-        return in;
-    }
-    ostream& operator << (ostream& out, MainUI& mainUI){
-
-        return out;
-    }
-*/
