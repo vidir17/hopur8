@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1512556883 source:c:\users\skata\desktop\verkefni2\main.cpp
+	"staffui.h"
+	"employee.h"
+
+1512556941 c:\users\skata\desktop\verkefni2\include\ui\staffui.h
+	<iostream>
+	<string>
+	"employee.h"
+	"addsalary.h"
+
+1512560647 c:\users\skata\desktop\verkefni2\include\models\employee.h
+	<string>
+	<iostream>
+	"addsalary.h"
+
+1512476118 source:c:\users\skata\desktop\verkefni2\src\models\employee.cpp
+	"employee.h"
+
+1512400090 source:c:\users\skata\desktop\verkefni2\src\ui\staffui.cpp
+	"staffui.h"
+
+1512481687 source:c:\users\skata\desktop\verkefni2\src\services\addsalary.cpp
+	"addsalary.h"
+	<iostream>
+
+1512560805 c:\users\skata\desktop\verkefni2\include\services\addsalary.h
+	"employee.h"
+	"salaryrepo.h"
+
+1512409223 source:c:\users\skata\desktop\verkefni2\src\repo\salaryrepo.cpp
+	"salaryrepo.h"
+
+1512560805 c:\users\skata\desktop\verkefni2\include\repo\salaryrepo.h
+	<fstream>
+	"employee.h"
+
