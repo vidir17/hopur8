@@ -44,13 +44,11 @@
 		<Unit filename="include/models/employee.h" />
 		<Unit filename="include/repo/salaryrepo.h" />
 		<Unit filename="include/services/addsalary.h" />
-		<Unit filename="include/services/readinfo.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/staffui.cpp" />
 		<Unit filename="src/models/employee.cpp" />
 		<Unit filename="src/repo/salaryrepo.cpp" />
 		<Unit filename="src/services/addsalary.cpp" />
-		<Unit filename="src/services/readinfo.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

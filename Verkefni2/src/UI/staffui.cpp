@@ -1,5 +1,5 @@
 #include "staffui.h"
-
+#include "employee.h"
 StaffUI::StaffUI()
 {
 
@@ -30,26 +30,11 @@ void StaffUI::mainMenu(){
 
     }
 }
-AddSalary StaffUI::addInfo(){
-        string name, socialSecurity;
-        int month;
-        double wages;
-        cout << "Employees name: ";
-        cin >> name;
-        cout << "Employees social security number: ";
-        cin >> socialSecurity;
-        cout << "Month: ";
-        cin >> month;
-        cout << "Wages: ";
-        cin >> wages;
-  //      AddSalary addsalary(name, socialSecurity, month, wages);
-
-     //   return addsalary;
-}
 void StaffUI::validateInput(char choice){
 
      if(choice == '1'){
         addsalary.addInfo(createEmployee());
+        //addsalary.addInfo(createEmployee());
 
     }
     else if(choice == '2'){
@@ -88,8 +73,33 @@ Employee StaffUI::createEmployee() {
 
     cout << "Year: ";
     cin >> year;
+
     Employee employee(name, socialSecurity, wages, month, year);
+<<<<<<< HEAD
+    return employee;
+=======
     //return Employee;
+>>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
     }
+
+
+
+Employee StaffUI::addInfo(){
+        string name, socialSecurity;
+        int month, year;
+        double wages;
+        cout << "Employees name: ";
+        cin >> name;
+        cout << "Employees social security number: ";
+        cin >> socialSecurity;
+        cout << "Month: ";
+        cin >> month;
+        cout << "Wages: ";
+        cin >> wages;
+        Employee employee(name, socialSecurity, month, wages, year);
+
+        return employee;
+}
+
 
 

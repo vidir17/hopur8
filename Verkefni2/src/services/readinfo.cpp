@@ -5,7 +5,9 @@ ReadInfo::ReadInfo()
     //ctor
 }
 
-ReadInfo::~ReadInfo()
-{
-    //dtor
+void AddSalary::addInfo(const Employee& employee){
+    //validate
+    salary.readInfo(employee);
 }
+
+

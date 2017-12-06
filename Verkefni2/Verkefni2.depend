@@ -35,21 +35,60 @@
 	<fstream>
 	"employee.h"
 
+<<<<<<< HEAD
+1512567998 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\main.cpp
+	"staffui.h"
+
+1512578260 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\ui\staffui.h
+=======
 1512566848 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\main.cpp
 	"staffui.h"
 	<iostream>
 
 1512567762 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
+>>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
 	<iostream>
 	<string>
 	"employee.h"
 	"addsalary.h"
 
+<<<<<<< HEAD
+1512575935 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\models\employee.h
+=======
 1512567497 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+>>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
 	<string>
 	<iostream>
 	"addsalary.h"
 
+<<<<<<< HEAD
+1512577974 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\services\addsalary.h
+	"employee.h"
+	"salaryrepo.h"
+
+1512579340 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\repo\salaryrepo.h
+	<fstream>
+	"employee.h"
+
+1512567710 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\models\employee.cpp
+	"employee.h"
+
+1512563011 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\repo\salaryrepo.cpp
+	"salaryrepo.h"
+
+1512576021 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\services\addsalary.cpp
+	"addsalary.h"
+
+1512571878 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\services\readinfo.cpp
+	"readinfo.h"
+
+1512572703 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\services\readinfo.h
+	"employee.h"
+
+1512578222 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\ui\staffui.cpp
+	"staffui.h"
+	"employee.h"
+=======
 1512567102 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
 	"employee.h"
 	"salaryrepo.h"
@@ -73,4 +112,5 @@
 	"readinfo.h"
 
 1512565036 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\readinfo.h
+>>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
 
