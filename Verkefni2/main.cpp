@@ -1,5 +1,6 @@
 #include "staffui.h"
-#include "employee.h"
+//#include "employee.h"
+#include <iostream>
 /* Hópur 8
     Hlynur Víðisson
     Katrín Guðmundsdóttir

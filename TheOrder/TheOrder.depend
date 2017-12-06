@@ -1,28 +1,30 @@
 # depslib dependency file v1.0
-1512131501 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+1512569221 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
 	<mainui.h>
 	<iostream>
 
-1512560940 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+1512571322 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
 	<iostream>
 	"mainui.h"
 	"matsedill.h"
 	"vidskiptavinur.h"
+	"umsjon.h"
 
 1512131643 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 
-1512482600 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\matsedill.h
+1512569449 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\matsedill.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 
-1512560723 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
+1512569798 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
 	<iostream>
 	"matsedill.h"
 	"mainui.h"
+	"controller1.h"
 	<fstream>
 
 1512053604 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjonarmadur.cpp
@@ -48,9 +50,12 @@
 	"gagnagrunnur.h"
 	<iostream>
 
-1512134691 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller1.cpp
+1512573023 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller1.cpp
 	"controller1.h"
 	<iostream>
+	"gagnasafn.h"
+	<fstream>
+	"matsedill.h"
 
 1512134691 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller1.h
 	<iostream>
@@ -114,4 +119,31 @@
 
 1512480968 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\dataskra.h
 	"matsedill.h"
+
+1512573624 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\gagnasafn.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	"controller1.h"
+
+1512574442 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\gagnasafn.cpp
+	"gagnasafn.h"
+	<fstream>
+
+1512571752 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\umsjon.h
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	"controller2.h"
+
+1512571580 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjon.cpp
+	"umsjon.h"
+
+1512571731 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller2.h
+	<fstream>
+	<iostream>
+
+1512573687 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller2.cpp
+	"controller2.h"
+	"gagnasafn.h"
 

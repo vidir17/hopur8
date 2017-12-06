@@ -4,7 +4,7 @@ SalaryRepo::SalaryRepo(){
     //ctor
 }
 
-void SalaryRepo::addInfo(const Employee& employee){
+/*void SalaryRepo::addInfo(const Employee& employee){
 
     ofstream fout;
     fout.open("Salary.txt", ios::app);
@@ -15,4 +15,4 @@ void SalaryRepo::addInfo(const Employee& employee){
     else {
         //throw error
     }
-}
+}*/

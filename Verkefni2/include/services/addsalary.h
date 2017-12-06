@@ -2,17 +2,18 @@
 #define ADDSALARY_H
 #include "employee.h"
 #include "salaryrepo.h"
+#include <iostream>
 
-
+using namespace std;
 
 class AddSalary
 {
     public:
         AddSalary();
-        void addInfo(const Employee& employee);
+//        void addInfo(const Employee& employee);
 
     private:
-        SalaryRepo salary_repo;
+        //SalaryRepo salary_repo;
 
 };
 

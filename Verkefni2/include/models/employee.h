@@ -23,14 +23,14 @@ class Employee
         friend istream& operator >> (istream& in, Employee& employee);
 
 
-
-
-    private:
-        string name;
+string name;
         string socialSecurity;
         double wages;
         int month;
         int year;
+
+    private:
+
 
 };
 

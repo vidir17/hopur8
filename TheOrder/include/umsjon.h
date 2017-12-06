@@ -1,21 +1,21 @@
 #ifndef UMSJON_H
 #define UMSJON_H
+#include <fstream>
+#include <iostream>
 
+#include <stdlib.h>
+#include "controller2.h"
 using namespace std;
-
-
 class Umsjon
 {
     public:
         Umsjon();
-        Umsjon(int Uchoice);
-        int getUChoice(int Uchoice);
-        void executeChoice(int Uchoice)
 
 
-
+        friend istream& operator >> (istream& in, Umsjon& umsjon);
+        friend ostream& operator << (ostream& out, Umsjon& umsjon);
     private:
-        int Uchoice;
+        int umsjon_val;
 };
 
 #endif // UMSJON_H

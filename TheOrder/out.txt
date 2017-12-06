@@ -39,3 +39,15 @@ Pizza: randompizza
 Alegg: random
 Staerd: 16 tommur
 Verd: 1337 kr
+
+Nr.
+****
+Pizza: Pizzanew
+Alegg: hakarl
+Staerd: 16
+Verd: 2000
+
+
+
+Nr.
+****

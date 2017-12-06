@@ -35,3 +35,42 @@
 	<fstream>
 	"employee.h"
 
+1512566848 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\main.cpp
+	"staffui.h"
+	<iostream>
+
+1512567762 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
+	<iostream>
+	<string>
+	"employee.h"
+	"addsalary.h"
+
+1512567497 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+	<string>
+	<iostream>
+	"addsalary.h"
+
+1512567102 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
+	"employee.h"
+	"salaryrepo.h"
+	<iostream>
+
+1512567533 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
+	<fstream>
+	"employee.h"
+	<iostream>
+
+1512567413 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
+	"employee.h"
+
+1512567533 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+	"salaryrepo.h"
+
+1512567543 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
+	"addsalary.h"
+
+1512565036 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\readinfo.cpp
+	"readinfo.h"
+
+1512565036 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\readinfo.h
+

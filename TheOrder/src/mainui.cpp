@@ -2,7 +2,7 @@
 #include "mainui.h"
 #include "matsedill.h"
 #include "vidskiptavinur.h"
-
+#include "umsjon.h"
 MainUI::MainUI()
 {
   choice = 0;
@@ -35,8 +35,10 @@ istream& operator >> (istream& in, MainUI& mainUI){
             cin >> mainUI.password; ////////////////////////breyta i char??? thegar ein char er skradur, prentast ut stjarna, option til ad eyda?
 
             if(mainUI.password == "azziP"){
-                cout << "correct";//inn i klasa
-                //cin >>
+
+                Umsjon umsjon;
+                cout << umsjon;
+                in >> umsjon;
             }else{
                 system("CLS");
                 cout << "wrong password" << endl;

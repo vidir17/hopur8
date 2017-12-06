@@ -7,7 +7,7 @@
 #include "employee.h"
 #include "addsalary.h"
 
-
+using namespace std;
 
 class StaffUI
 {
@@ -22,7 +22,7 @@ class StaffUI
         void validateInput(char input);
         AddSalary addInfo();
         AddSalary addsalary();
-        //Employee createEmployee();
+        Employee createEmployee();
 
 };
 
