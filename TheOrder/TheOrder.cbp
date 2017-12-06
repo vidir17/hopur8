@@ -35,6 +35,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/controller1.h" />
+		<Unit filename="include/dataskra.h" />
 		<Unit filename="include/gagnagrunnur.h" />
 		<Unit filename="include/mainui.h" />
 		<Unit filename="include/matsedill.h" />
@@ -42,6 +43,7 @@
 		<Unit filename="include/vidskiptavinur.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/controller1.cpp" />
+		<Unit filename="src/dataskra.cpp" />
 		<Unit filename="src/gagnagrunnur.cpp" />
 		<Unit filename="src/mainui.cpp" />
 		<Unit filename="src/matsedill.cpp" />

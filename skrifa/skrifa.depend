@@ -14,3 +14,18 @@
 	<fstream>
 	<string>
 
+1512468887 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\skrifa\main.cpp
+	<iostream>
+	"staff.h"
+	<fstream>
+	<string>
+
+1512469209 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\skrifa\include\staff.h
+	<iostream>
+	<string>
+	<fstream>
+
+1512469209 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\skrifa\src\staff.cpp
+	"staff.h"
+	<string>
+

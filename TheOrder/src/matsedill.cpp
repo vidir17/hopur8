@@ -54,7 +54,7 @@ void Matsedill::get_txt(){
         teljari++;
         }
             counter = 0;
-            counter2 = 7;
+            counter2 = 7;https://discord.gg/6hgPgV
             system("CLS");
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << endl;
             while(counter < counter2){ //10 linur i einu
