@@ -55,3 +55,11 @@ Alegg: allt
 Staerd: 100
 Verd: 10000
 
+
+Nr.
+****
+Pizza: pizzaname
+Alegg: aleggid
+Staerd: staerdin
+Verd: verdid
+

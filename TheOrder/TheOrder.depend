@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1512569221 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+1512660506 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
 	<mainui.h>
 	<iostream>
 
-1512575472 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+1512660286 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
 	<iostream>
 	"mainui.h"
 	"matsedill.h"
@@ -11,7 +11,7 @@
 	"umsjon.h"
 	"bakari.h"
 
-1512131643 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
+1512660286 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
@@ -137,7 +137,7 @@
 	<stdlib.h>
 	"controller2.h"
 
-1512571580 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjon.cpp
+1512660573 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjon.cpp
 	"umsjon.h"
 
 1512571731 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller2.h

@@ -6,7 +6,7 @@
 #include "bakari.h"
 MainUI::MainUI()
 {
-  choice = 0;
+    choice = 0;
     password = "";
 }
 MainUI::MainUI(int choice, string password){

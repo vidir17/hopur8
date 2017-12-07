@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
+
 
 #include "employee.h"
 #include "addsalary.h"
@@ -31,15 +31,15 @@ class StaffUI
         void validateInput(char input);
 
         Employee addInfo();
-        AddSalary addsalary;
+        //AddSalary addsalary;
         Employee createEmployee();
         //Employee employee;
 
 
 
-        AddSalary addInfo();
+//        AddSalary addInfo();
         AddSalary addsalary();
-        Employee createEmployee();
+//        Employee createEmployee();
 
 };
 

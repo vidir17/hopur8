@@ -12,6 +12,8 @@ istream& operator >> (istream& in, Umsjon& umsjon){
    in >> umsjon.umsjon_val;
    if(umsjon.umsjon_val == 1){
         system("CLS");
+        cout << "Add pizza to menu" << endl;
+        cout << "-----------------" << endl;
         Controller2 controller2;
         in >> controller2;
    }

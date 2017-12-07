@@ -17,8 +17,7 @@ public:
     MainUI(int choice, string password);
     friend istream& operator >> (istream& in, MainUI& mainUI);
     friend ostream& operator << (ostream& out, MainUI& mainUI);
-    //int getChoice();
-    //void setChoice(int number);
+
 };
 
 #endif // MAINUI_H

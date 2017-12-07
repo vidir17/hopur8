@@ -35,33 +35,36 @@
 	<fstream>
 	"employee.h"
 
-<<<<<<< HEAD
+1512567497 D
+
 1512567998 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\main.cpp
 	"staffui.h"
 
 1512578260 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\ui\staffui.h
-=======
-1512566848 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\main.cpp
+
+1512657161 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\main.cpp
 	"staffui.h"
 	<iostream>
 
-1512567762 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
->>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
+1512660723 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
 	<iostream>
 	<string>
 	"employee.h"
 	"addsalary.h"
 
-<<<<<<< HEAD
-1512575935 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\models\employee.h
-=======
-1512567497 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
->>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
+1512565036 cb3065bbe33d6907de8833fd1a99533bc34ad
+	<iostream>
+	<string>
+	"employee.h"
+	"addsalary.h"
 	<string>
 	<iostream>
 	"addsalary.h"
 
-<<<<<<< HEAD
+1512575935 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\models\employee.h
+
+1512567497 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+
 1512577974 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\services\addsalary.h
 	"employee.h"
 	"salaryrepo.h"
@@ -88,21 +91,23 @@
 1512578222 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\ui\staffui.cpp
 	"staffui.h"
 	"employee.h"
-=======
-1512567102 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
+
+1512578222 h"
+
+1512657131 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
 	"employee.h"
 	"salaryrepo.h"
 	<iostream>
 
-1512567533 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
+1512657126 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
 	<fstream>
 	"employee.h"
 	<iostream>
 
-1512567413 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
+1512656531 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
 	"employee.h"
 
-1512567533 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512660744 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"salaryrepo.h"
 
 1512567543 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
@@ -112,5 +117,4 @@
 	"readinfo.h"
 
 1512565036 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\readinfo.h
->>>>>>> af4cb3065bbe33d6907de8833fd1a99533bc34ad
 
