@@ -24,13 +24,10 @@ class AddSalary
 {
 public:
     AddSalary();
-    //void addInfo(const Employee& employee);
-    
-    
+    void addinfo(const Employee& employee);
+     
 private:
-    //SalaryRepo salary_repo;
-    
-    
+   
 };
 
 #endif /* Addsalary_hpp */

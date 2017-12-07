@@ -9,6 +9,7 @@
 #include "Readinfo.hpp"
 #include "Addsalary.hpp"
 #include <iostream>
+#include <string>
 #include <fstream>
 using namespace std;
 ReadInfo::ReadInfo()
@@ -17,7 +18,17 @@ ReadInfo::ReadInfo()
 }
 
 void ReadInfo::addinfo(const Employee& employee){
-    ofstream fout {"employee.txt", ios::app};
+    ofstream fout ("employee.txt", ios::app);
+    
+    if(fout.is_open())
+    {
+        fout << employee;
+        fout.close();
+    }
+    else
+    {
+        cout << "404" << endl;
+    }
     
     
 }

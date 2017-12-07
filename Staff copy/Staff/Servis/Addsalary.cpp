@@ -7,16 +7,14 @@
 //
 
 #include "Addsalary.hpp"
-
+#include "Salerepo.hpp"
 AddSalary::AddSalary()
 {
     //ctor
 }
-/*void AddSalary::addInfo(const Employee& employee){
- //validate
- salary_repo.addInfo(employee);
- <<<<<<< HEAD
- }
+void AddSalary::addinfo(const Employee& employee)
+{
+    SalaryRepo salary_repo;
+    salary_repo.addInfo(employee);
+}
  
- =======
- }*/

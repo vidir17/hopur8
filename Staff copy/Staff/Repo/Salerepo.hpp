@@ -11,24 +11,23 @@
 
 #include <stdio.h>
 #include <fstream>
-
+#include <iostream>
 #include "Employee.hpp"
 using namespace std;
 class Employee;
 class AddSalary;
 
-#include <iostream>
-using namespace std;
+
 class SalaryRepo
 {
 public:
     SalaryRepo();
     void addInfo(const Employee& employee);
-    //void getInfo(const Employee& employee);
+    void getInfo(const Employee& employee);
     //        void addInfo(const Employee& employee);
     
 private:
-    
+    //SalaryRepo salary_repo;
 };
 
 #endif /* Salerepo_hpp */

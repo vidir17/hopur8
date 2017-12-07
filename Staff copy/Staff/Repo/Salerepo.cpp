@@ -7,42 +7,38 @@
 //
 
 #include "Salerepo.hpp"
-
+#include <fstream>
+#include <iostream>
 SalaryRepo::SalaryRepo(){
     //ctor
 }
 
-/*void SalaryRepo::addInfo(const Employee& employee){
+void SalaryRepo::addInfo(const Employee& employee){
  
- ofstream fout;
- fout.open("Salary.txt", ios::app);
- if(fout.is_open()){
- fout << employee;
- fout.close();
+    ofstream fout;
+    fout.open("Salary.txt", ios::app);
+    if(fout.is_open()){
+        fout << employee;
+        fout.close();
+    }
+    else {
+        cout << "404" << endl;
+    }
  }
- else {
- //throw error
- }
- <<<<<<< HEAD
- }
- void SalaryRepo::getInfo(const Employee& employee){
+void SalaryRepo::getInfo(const Employee& employee){
  
- istream fin;
- fin.open("Salary.txt", ios::app);
+     ifstream fin;
+     fin.open("Salary.txt", ios::app);
  
- if(fin.is_open()){
- while(!fin.eof()){
- fin >> employee;
- if (fin.eof()){
- break;
- }
- 
- 
- cout << employee << endl;
- }
- fin.close();
- }
- 
- }
- */
-
+     if(fin.is_open()){
+         while(!fin.eof())
+         {
+             if(fin.eof())
+             {
+                 break;
+             }
+            cout << employee << endl;
+         }
+         fin.close();
+     }
+}

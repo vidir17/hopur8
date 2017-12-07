@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E31A120E1FD97F6400DCFFAF /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31A120C1FD97F6400DCFFAF /* Employee.cpp */; };
 		E31A12111FD97FFF00DCFFAF /* UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E31A120F1FD97FFF00DCFFAF /* UI.cpp */; };
-		E39BE1FF1FD98FB9004A2E7E /* Readinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E39BE1FD1FD98FB9004A2E7E /* Readinfo.cpp */; };
 		E39BE2021FD98FCA004A2E7E /* Addsalary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E39BE2001FD98FCA004A2E7E /* Addsalary.cpp */; };
 		E39BE2051FD990E9004A2E7E /* Salerepo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E39BE2031FD990E8004A2E7E /* Salerepo.cpp */; };
 		E3E6A5BE1FD9535900EFF5AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3E6A5BD1FD9535900EFF5AF /* main.cpp */; };
@@ -32,8 +31,6 @@
 		E31A120D1FD97F6400DCFFAF /* Employee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Employee.hpp; path = Models/Employee.hpp; sourceTree = "<group>"; };
 		E31A120F1FD97FFF00DCFFAF /* UI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UI.cpp; path = UI/UI.cpp; sourceTree = "<group>"; };
 		E31A12101FD97FFF00DCFFAF /* UI.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = UI.hpp; path = UI/UI.hpp; sourceTree = "<group>"; };
-		E39BE1FD1FD98FB9004A2E7E /* Readinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Readinfo.cpp; path = Servis/Readinfo.cpp; sourceTree = "<group>"; };
-		E39BE1FE1FD98FB9004A2E7E /* Readinfo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Readinfo.hpp; path = Servis/Readinfo.hpp; sourceTree = "<group>"; };
 		E39BE2001FD98FCA004A2E7E /* Addsalary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Addsalary.cpp; path = Servis/Addsalary.cpp; sourceTree = "<group>"; };
 		E39BE2011FD98FCA004A2E7E /* Addsalary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Addsalary.hpp; path = Servis/Addsalary.hpp; sourceTree = "<group>"; };
 		E39BE2031FD990E8004A2E7E /* Salerepo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Salerepo.cpp; path = Repo/Salerepo.cpp; sourceTree = "<group>"; };
@@ -75,8 +72,6 @@
 				E3E6A5BD1FD9535900EFF5AF /* main.cpp */,
 				E31A120F1FD97FFF00DCFFAF /* UI.cpp */,
 				E31A12101FD97FFF00DCFFAF /* UI.hpp */,
-				E39BE1FD1FD98FB9004A2E7E /* Readinfo.cpp */,
-				E39BE1FE1FD98FB9004A2E7E /* Readinfo.hpp */,
 				E39BE2031FD990E8004A2E7E /* Salerepo.cpp */,
 				E39BE2041FD990E9004A2E7E /* Salerepo.hpp */,
 				E39BE2001FD98FCA004A2E7E /* Addsalary.cpp */,
@@ -145,7 +140,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E6A5BE1FD9535900EFF5AF /* main.cpp in Sources */,
-				E39BE1FF1FD98FB9004A2E7E /* Readinfo.cpp in Sources */,
 				E31A12111FD97FFF00DCFFAF /* UI.cpp in Sources */,
 				E39BE2021FD98FCA004A2E7E /* Addsalary.cpp in Sources */,
 				E39BE2051FD990E9004A2E7E /* Salerepo.cpp in Sources */,

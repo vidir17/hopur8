@@ -31,7 +31,7 @@ public:
     void mainMenu();
     
     
-    Employee addInfo();
+    //Employee addInfo();
     AddSalary addsalary();
     Employee createEmployee();
     

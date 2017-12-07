@@ -8,6 +8,7 @@
 
 #include "UI.hpp"
 #include "Employee.hpp"
+#include "Addsalary.hpp"
 StaffUI::StaffUI()
 {
     
@@ -40,9 +41,11 @@ void StaffUI::mainMenu(){
 }
 void StaffUI::validateInput(char choice){
     StaffUI staffUI;
+    AddSalary addsalary;
+    Employee employee;
+    
     if(choice == '1'){
-        createEmployee();
-        //addsalary.addInfo(createEmployee());
+        addsalary.addinfo(createEmployee());
         
     }
     else if(choice == '2'){
@@ -84,24 +87,20 @@ Employee StaffUI::createEmployee() {
     
     Employee employee(name, socialSecurity, wages, month, year);
     return employee;
-    //return Employee;
 }
-
-
-
-Employee StaffUI::addInfo(){
+/*Employee StaffUI::addInfo(){
     string name, socialSecurity;
     int month, year = 0;
     double wages;
-    cout << "Employees name: ";
+    cout << "Employees name: " << endl;
     cin >> name;
-    cout << "Employees social security number: ";
+    cout << "Employees social security number: " << endl;
     cin >> socialSecurity;
-    cout << "Month: ";
+    cout << "Month: " << endl;
     cin >> month;
-    cout << "Wages: ";
+    cout << "Wages: " << endl;
     cin >> wages;
     Employee employee(name, socialSecurity, month, wages, year);
     
     return employee;
-}
+}*/
