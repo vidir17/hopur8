@@ -9,10 +9,14 @@ using namespace std;
 class Gagnasafn
 {
     public:
-        Gagnasafn();
-       void get_txt();
-       void printfirst();
-       void insert_new_pizza();
+
+       Gagnasafn();
+       void printfyrir1();
+       void get_txt(); //pantapizzu texti
+       void printfirst(); //prenta ut fyrir panta pizzu
+       void insert_new_pizza(); //bua til pizzu fyrir umsjon
+       void open_bakerlist(); //fyrir bakara
+
 
     private:
 };

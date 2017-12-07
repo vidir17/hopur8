@@ -3,6 +3,7 @@
 #include "matsedill.h"
 #include "vidskiptavinur.h"
 #include "umsjon.h"
+#include "bakari.h"
 MainUI::MainUI()
 {
   choice = 0;
@@ -56,7 +57,9 @@ istream& operator >> (istream& in, MainUI& mainUI){
 
             cin >> mainUI.password;
             if(mainUI.password == "azziP"){
-                cout << "correct";//inn i klasa
+                 Bakari bakari;
+                cout << bakari;
+                in >> bakari;
             }else{
                 system("CLS");
                 cout << "wrong password" << endl;

@@ -4,7 +4,21 @@ Gagnasafn::Gagnasafn()
 {
     //ctor
 }
+void Gagnasafn::printfyrir1(){
+            ifstream fin;
+            string ch;
+            fin.open("out.txt");
+            int counter = 0;
+            system("CLS");
+            cout << "THU HEFUR VALID PIZZU NUMER: " << 1 << endl;
+            while(counter < 7){ //7 línur
+            getline(fin, ch); //naer i linu
+            cout << ch << endl; //prentar ut
 
+        counter++; //plusa counter fyrir hverja linu upp i 10 linur
+        }
+        fin.close();
+}
 void Gagnasafn::printfirst(){
     system("CLS");
 
@@ -34,22 +48,35 @@ void Gagnasafn::get_txt(){
     {
       cout << ch1 << endl;
     }
+
     fin.close();
 
     cin >> input;
-        fin.open("out.txt");
+
         if(input == 1){
 
-            system("CLS");
-            cout << "THU HEFUR VALID PIZZU NUMER: " << input << endl;
-            while(counter < 7){ //7 línur
-            getline(fin, ch); //naer i linu
-            cout << ch << endl; //prentar ut
-        counter++; //plusa counter fyrir hverja linu upp i 10 linur
+
+            printfyrir1();
+
+        fin.open("out.txt");
+
+        counter = 0;
+        //fin.open("out.txt");
+        fout.open("pantanir.txt", ios::app);
+        while(counter < 7){
+            getline(fin,ch);
+            fout << ch << endl;
+
+            counter++;
         }
+        fout.close();
+        fin.close();
+
+
         }
         counter = 0;
         if(input > 1){
+                fin.open("out.txt");
         while(input > teljari){
             counter2 += 7;
             while(counter < counter2){ //10 linur i einu
@@ -64,7 +91,7 @@ void Gagnasafn::get_txt(){
             counter = 0;
             counter2 = 7;
             system("CLS");
-            cout << "THU HEFUR VALID PIZZU NUMER: " << input << endl;
+            cout << "THU HEFUR VALID PIZZU NUMER: " << input << " Pontunar numerid thitt er: " << endl;
             while(counter < counter2){ //10 linur i einu
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
@@ -73,8 +100,10 @@ void Gagnasafn::get_txt(){
                 break;
             }
         }
+        fin.close();
+
         }
-    fin.close();
+
 }
 void Gagnasafn::insert_new_pizza(){
     ofstream fout;
@@ -100,5 +129,9 @@ void Gagnasafn::insert_new_pizza(){
     //Write string to the file.
 
 
+
     fout.close();
 }
+void Gagnasafn::open_bakerlist(){
+        cout << "This is the newest order of pizza";
+    }

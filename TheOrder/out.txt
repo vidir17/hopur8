@@ -48,6 +48,10 @@ Staerd: 16
 Verd: 2000
 
 
-
 Nr.
 ****
+Pizza: Nyjapizzan
+Alegg: allt
+Staerd: 100
+Verd: 10000
+
