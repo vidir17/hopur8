@@ -34,19 +34,29 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/bakari.h" />
 		<Unit filename="include/controller1.h" />
+		<Unit filename="include/controller2.h" />
+		<Unit filename="include/controller3.h" />
 		<Unit filename="include/dataskra.h" />
 		<Unit filename="include/gagnagrunnur.h" />
+		<Unit filename="include/gagnasafn.h" />
 		<Unit filename="include/mainui.h" />
 		<Unit filename="include/matsedill.h" />
+		<Unit filename="include/umsjon.h" />
 		<Unit filename="include/umsjonarmadur.h" />
 		<Unit filename="include/vidskiptavinur.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/bakari.cpp" />
 		<Unit filename="src/controller1.cpp" />
+		<Unit filename="src/controller2.cpp" />
+		<Unit filename="src/controller3.cpp" />
 		<Unit filename="src/dataskra.cpp" />
 		<Unit filename="src/gagnagrunnur.cpp" />
+		<Unit filename="src/gagnasafn.cpp" />
 		<Unit filename="src/mainui.cpp" />
 		<Unit filename="src/matsedill.cpp" />
+		<Unit filename="src/umsjon.cpp" />
 		<Unit filename="src/umsjonarmadur.cpp" />
 		<Unit filename="src/vidskiptavinur.cpp" />
 		<Extensions>
