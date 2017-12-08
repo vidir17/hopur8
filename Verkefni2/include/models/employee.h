@@ -1,37 +1,42 @@
-#ifndef EMPLOYEE_H
-#define EMPLOYEE_H
+//
+//  Employee.hpp
+//  Staff
+//
+//  Created by Hlynur Víðisson on 07/12/2017.
+//
+//
 
+#ifndef Employee_hpp
+#define Employee_hpp
+
+#include <stdio.h>
 #include <string>
 #include <iostream>
-#include "addsalary.h"
+#include "Addsalary.h"
 
 using namespace std;
 
-
 class Employee
 {
-    public:
-        Employee();
-        Employee(string name, string socialSecurity, double wages, int month, int year);
-        string getName();
-        string getSSN();
-        double getWages();
-        int getMonth();
-        int getYear();
+public:
+    Employee();
+    Employee(string name, string socialSecurity, double wages, int month, int year);
+    string getName();
+    string getSSN();
+    double getWages();
+    int getMonth();
+    int getYear();
 
-        friend ostream& operator << (ostream& out, const Employee& employee);
-        friend istream& operator >> (istream& in, Employee& employee);
+    friend ostream& operator << (ostream& out, const Employee& employee);
+    friend istream& operator >> (istream& in, Employee& employee);
 
-
-string name;
-        string socialSecurity;
-        double wages;
-        int month;
-        int year;
-
-    private:
+private:
+    string name;
+    string socialSecurity;
+    double wages;
+    int month;
+    int year;
 
 
 };
-
-#endif // EMPLOYEE_H
+#endif /* Employee_hpp */

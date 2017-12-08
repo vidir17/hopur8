@@ -1,12 +1,20 @@
-#include "employee.h"
+//
+//  Employee.cpp
+//  Staff
+//
+//  Created by Hlynur Víðisson on 07/12/2017.
+//
+//
 
-/*Employee::Employee(){
-        name = "";
-        socialSecurity = "";
-        wages = 0.0;
-        month = 0;
-        year = 2017;
-}*/
+#include "Employee.h"
+
+Employee::Employee(){
+ name = "";
+ socialSecurity = "";
+ wages = 0.0;
+ month = 0;
+ year = 2017;
+}
 
 Employee::Employee(string name, string socialSecurity, double wages, int month, int year)
 {
@@ -35,7 +43,7 @@ int Employee::getYear(){
     return this->year;
 }
 ostream& operator << (ostream& out, const Employee& employee){
-    out << employee.name << ", " << employee.socialSecurity << ", " << employee.wages << ", " << employee.month << ", " << employee.year << endl;
+    out << employee.socialSecurity << ", " << employee.name << ", " << employee.wages << ", " << employee.month << ", " << employee.year << endl;
 
     return out;
 }

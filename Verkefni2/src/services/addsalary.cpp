@@ -1,16 +1,22 @@
-#include "addsalary.h"
+//
+//  Addsalary.cpp
+//  Staff
+//
+//
 
-
+#include "Addsalary.h"
+#include "Salaryrepo.h"
 AddSalary::AddSalary()
 {
     //ctor
 }
-/*void AddSalary::addInfo(const Employee& employee){
-    //validate
+void AddSalary::addinfo(const Employee& employee)
+{
+    SalaryRepo salary_repo;
     salary_repo.addInfo(employee);
-<<<<<<< HEAD
 }
-
-=======
-}*/
-
+void AddSalary::get_Info(const Employee& employee)
+{
+    SalaryRepo salary_repo;
+    salary_repo.getInfo(employee);
+}

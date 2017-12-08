@@ -1,46 +1,28 @@
-#ifndef STAFFUI_H
-#define STAFFUI_H
+//
+//  UI.hpp
+//  Staff
+//
 
+
+#ifndef UI_hpp
+#define UI_hpp
+#include "Employee.h"
+#include "Addsalary.h"
+#include "Salaryrepo.h"
+#include <stdio.h>
 #include <iostream>
 #include <string>
-
-
-#include "employee.h"
-#include "addsalary.h"
-
-
-class AddSalary;
-class Employee;
-class SalaryRepo;
-
 using namespace std;
-
-
 class StaffUI
 {
-    public:
-        StaffUI();
-        //StaffUI(char choice);
-        //char getChoice();
-        void mainMenu();
+public:
+    void mainMenu();
+    AddSalary addsalary();
+    Employee createEmployee();
 
 
-
-    private:
-        //char choice;
-        void validateInput(char input);
-
-        Employee addInfo();
-        //AddSalary addsalary;
-        Employee createEmployee();
-        //Employee employee;
-
-
-
-//        AddSalary addInfo();
-        AddSalary addsalary();
-//        Employee createEmployee();
-
+private:
+    void validateInput(char input);
 };
 
-#endif // STAFFUI_H
+#endif /* UI_hpp */

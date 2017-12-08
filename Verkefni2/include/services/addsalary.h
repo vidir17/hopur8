@@ -1,28 +1,33 @@
-#ifndef ADDSALARY_H
-#define ADDSALARY_H
-#include "employee.h"
+//
+//  Addsalary.hpp
+//  Staff
+//
+//
+//
+
+#ifndef Addsalary_hpp
+#define Addsalary_hpp
+
+#include <stdio.h>
+#include "Employee.h"
 #include "salaryrepo.h"
 #include <iostream>
 
 using namespace std;
 
-
 class Employee;
 class SalaryRepo;
 class StaffUI;
 
-
 class AddSalary
 {
-    public:
-        AddSalary();
-//        void addInfo(const Employee& employee);
+public:
+    AddSalary();
+    void addinfo(const Employee& employee);
+    void get_Info(const Employee& employee);
 
-
-    private:
-        //SalaryRepo salary_repo;
-
+private:
 
 };
 
-#endif // ADDSALARY_H
+#endif /* Addsalary_hpp */
