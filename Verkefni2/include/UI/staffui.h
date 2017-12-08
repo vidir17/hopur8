@@ -1,6 +1,5 @@
-//
-//  UI.hpp
-//  Staff
+//samskipti við notanda
+//  valmöguleikar gefnir og kannað hvort rétt hafi verið valið
 //
 
 

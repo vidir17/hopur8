@@ -1,19 +1,13 @@
-//
-//  Employee.cpp
-//  Staff
-//
-//  Created by Hlynur Víðisson on 07/12/2017.
-//
-//
+
 
 #include "Employee.h"
-//#include <stdlib.h>
+
 Employee::Employee(){
  name = "";
  socialSecurity = "";
  wages = 0.0;
  month = 0;
- year = 2017;
+ year = 0;
 }
 
 Employee::Employee(string name, string socialSecurity, double wages, int month, int year)

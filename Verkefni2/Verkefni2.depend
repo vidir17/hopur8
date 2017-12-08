@@ -61,14 +61,14 @@
 	"employee.h"
 	<iostream>
 
-1512739725 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\ui\staffui.h
+1512748698 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\ui\staffui.h
 	"Employee.h"
 	"Addsalary.h"
 	<stdio.h>
 	<iostream>
 	<string>
 
-1512742004 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\models\employee.h
+1512748698 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\models\employee.h
 	<stdio.h>
 	<string>
 	<iostream>
@@ -97,7 +97,7 @@
 1512742004 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\models\employee.cpp
 	"Employee.h"
 
-1512739725 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512746604 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"Salaryrepo.h"
 	<fstream>
 	<iostream>
@@ -111,7 +111,7 @@
 	"Addsalary.h"
 	"Salaryrepo.h"
 
-1512743160 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\ui\staffui.cpp
+1512745276 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\src\ui\staffui.cpp
 	<cstdlib>
 	"staffui.h"
 	<ctype.h>

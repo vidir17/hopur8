@@ -1,10 +1,5 @@
-//
-//  Salerepo.hpp
-//  Staff
-//
-//  Created by Hlynur Víðisson on 07/12/2017.
-//  Copyright © 2017 Hlynur Víðisson. All rights reserved.
-//
+//the data part of the program
+
 
 #ifndef Salerepo_hpp
 #define Salerepo_hpp

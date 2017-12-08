@@ -20,6 +20,7 @@
 #include <vector>
 #include <string>
 
+//controller of the program
 
 using namespace std;
 

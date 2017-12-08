@@ -70,7 +70,7 @@ bool AddSalary::validateMonth(const Employee& employee){
 }
 bool AddSalary::validateYear(const Employee& employee){
     int y = employee.getYear();
-    if(y != 2017){
+    if(y > 2017){
         throw InvalidYear();
     }
     return true;

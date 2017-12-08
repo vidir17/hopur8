@@ -14,7 +14,7 @@
 #include <iostream>
 
 using namespace std;
-
+//the model of the program
 class Employee
 {
 public:
@@ -26,6 +26,10 @@ public:
     int getMonth()const;
     int getYear()const;
     void setName(string newname);
+    void setSNN(string ssn);
+    //void setWages(double wages);
+    //void setMonth(int month);
+    //void setYear(int year);
 
     friend ostream& operator << (ostream& out, const Employee& employee);
     friend istream& operator >> (istream& in, Employee& employee);
