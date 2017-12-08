@@ -34,7 +34,7 @@
 1512736976 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
 	"Employee.h"
 
-1512738571 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512739079 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"Salaryrepo.h"
 	<fstream>
 	<iostream>
@@ -43,7 +43,7 @@
 	"Addsalary.h"
 	"Salaryrepo.h"
 
-1512738614 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
+1512739079 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
 	<cstdlib>
 	"staffui.h"
 	<ctype.h>

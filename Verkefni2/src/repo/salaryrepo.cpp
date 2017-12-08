@@ -78,9 +78,12 @@ void SalaryRepo::getInfo(){
 vector<Employee> SalaryRepo::withSameSSN(string ssn){
     onlyWithSameSSN.clear();
     getInfo();
+
     cout << "is size of vector bigger than 0: " << allemployees.size() << endl;
-    for (int i = 0; i < allemployees.size(); i++){
+
+    for (unsigned int i = 0; i < allemployees.size(); i++){
         if (allemployees[i].getSSN() == ssn){
+
             onlyWithSameSSN.push_back(allemployees[i]);
         }
     }

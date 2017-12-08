@@ -41,7 +41,11 @@ void StaffUI::validateInput(char choice){
         string input;
         cin >> input;
         vector<Employee> test = addsalary.withSameSSN(input);
+        if(test.size() != 0){
         cout << "How big is test: " << test.size() << endl;
+        }else{
+        cout << "Data not found" << endl;
+        }
         //cout << "Viewing an individual salary record" << endl;
 
     }
