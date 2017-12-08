@@ -16,7 +16,6 @@
 
 using namespace std;
 
-
 class Employee
 {
 public:
@@ -31,14 +30,12 @@ public:
     friend ostream& operator << (ostream& out, const Employee& employee);
     friend istream& operator >> (istream& in, Employee& employee);
     
-    
+private:
     string name;
     string socialSecurity;
     double wages;
     int month;
     int year;
-    
-private:
     
     
 };

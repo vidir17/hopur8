@@ -25,6 +25,7 @@ class AddSalary
 public:
     AddSalary();
     void addinfo(const Employee& employee);
+    void get_Info(const Employee& employee);
      
 private:
    

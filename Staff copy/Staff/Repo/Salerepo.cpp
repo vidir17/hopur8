@@ -9,15 +9,12 @@
 #include "Salerepo.hpp"
 #include <fstream>
 #include <iostream>
-SalaryRepo::SalaryRepo(){
-    //ctor
-}
-
 void SalaryRepo::addInfo(const Employee& employee){
  
     ofstream fout;
     fout.open("Salary.txt", ios::app);
-    if(fout.is_open()){
+    if(fout.is_open())
+    {
         fout << employee;
         fout.close();
     }
@@ -26,19 +23,19 @@ void SalaryRepo::addInfo(const Employee& employee){
     }
  }
 void SalaryRepo::getInfo(const Employee& employee){
- 
-     ifstream fin;
-     fin.open("Salary.txt", ios::app);
- 
-     if(fin.is_open()){
+    char ch;
+    ifstream fin;
+    fin.open("Salary.txt", ios::app);
+    if(fin.is_open()){
          while(!fin.eof())
          {
-             if(fin.eof())
-             {
-                 break;
-             }
-            cout << employee << endl;
+             fin.get(ch);
+             cout << ch << endl;
          }
-         fin.close();
      }
+    else
+    {
+        cout << "404" << endl;
+    }
+        fin.close();
 }

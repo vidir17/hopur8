@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Staff/UI/UI.cpp"
-            timestampString = "534356316.443197"
+            timestampString = "534416206.830451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "StaffUI::createEmployee()"
             landmarkType = "7">
          </BreakpointContent>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "AddSalary::addInfo(const Employee&amp; employee)"
+            landmarkName = "AddSalary::addinfo(const Employee&amp; employee)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

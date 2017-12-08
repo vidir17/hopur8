@@ -7,20 +7,7 @@
 //
 
 #include "UI.hpp"
-#include "Employee.hpp"
-#include "Addsalary.hpp"
-StaffUI::StaffUI()
-{
-    
-}
-
-/*StaffUI::StaffUI(char choice){
- this->choice = choice;
- }
- 
- char StaffUI::getChoice(){
- return this->choice;
- } */
+#include <ctype.h>
 void StaffUI::mainMenu(){
     cout << "Welcome!" << endl;
     
@@ -31,6 +18,7 @@ void StaffUI::mainMenu(){
         cout << "Press 2 for retrieving individual salary record" << endl;
         cout << "Press 3 for viewing total salary record for a person or a year" << endl;
         cout << "Press 4 for highest paid individual" << endl;
+        cout << "Type 'exit' when you want to quit" << endl;
         cout << endl;
         
         char choice;
@@ -40,7 +28,6 @@ void StaffUI::mainMenu(){
     }
 }
 void StaffUI::validateInput(char choice){
-    StaffUI staffUI;
     AddSalary addsalary;
     Employee employee;
     
@@ -49,6 +36,7 @@ void StaffUI::validateInput(char choice){
         
     }
     else if(choice == '2'){
+        addsalary.get_Info(employee);
         cout << "Viewing an individual salary record" << endl;
         
     }
@@ -61,14 +49,16 @@ void StaffUI::validateInput(char choice){
         
     }
     else{
-        cout << "Invalid input, try again" << endl;
+        exit(9);
     }
+    cout << endl;
+    
 }
 
 Employee StaffUI::createEmployee() {
     string name, socialSecurity;
-    double wages;
-    int month, year;
+    double wages = 0.0;
+    int month = 0, year = 0;
     
     cout << "Name: " << endl;
     cin >> name;
@@ -88,19 +78,7 @@ Employee StaffUI::createEmployee() {
     Employee employee(name, socialSecurity, wages, month, year);
     return employee;
 }
-/*Employee StaffUI::addInfo(){
-    string name, socialSecurity;
-    int month, year = 0;
-    double wages;
-    cout << "Employees name: " << endl;
-    cin >> name;
-    cout << "Employees social security number: " << endl;
-    cin >> socialSecurity;
-    cout << "Month: " << endl;
-    cin >> month;
-    cout << "Wages: " << endl;
-    cin >> wages;
-    Employee employee(name, socialSecurity, month, wages, year);
-    
-    return employee;
-}*/
+bool StaffUI::contains_number(const std::string &c)
+{
+    return (c.find_first_of("0123456789") != std::string::npos);
+}

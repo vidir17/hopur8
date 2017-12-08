@@ -43,7 +43,7 @@ int Employee::getYear(){
     return this->year;
 }
 ostream& operator << (ostream& out, const Employee& employee){
-    out << employee.name << ", " << employee.socialSecurity << ", " << employee.wages << ", " << employee.month << ", " << employee.year << endl;
+    out << employee.socialSecurity << ", " << employee.name << ", " << employee.wages << ", " << employee.month << ", " << employee.year << endl;
     
     return out;
 }

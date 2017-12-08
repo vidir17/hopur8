@@ -12,22 +12,17 @@
 #include <stdio.h>
 #include <fstream>
 #include <iostream>
-#include "Employee.hpp"
 using namespace std;
+#include "Employee.hpp"
 class Employee;
-class AddSalary;
-
-
 class SalaryRepo
 {
 public:
-    SalaryRepo();
     void addInfo(const Employee& employee);
     void getInfo(const Employee& employee);
-    //        void addInfo(const Employee& employee);
-    
+    //void addInfo(const Employee& employee);
 private:
-    //SalaryRepo salary_repo;
+    
 };
 
 #endif /* Salerepo_hpp */
