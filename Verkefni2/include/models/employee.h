@@ -20,11 +20,11 @@ class Employee
 public:
     Employee();
     Employee(string name, string socialSecurity, double wages, int month, int year);
-    string getName();
-    string getSSN();
-    double getWages();
-    int getMonth();
-    int getYear();
+    string getName()const;
+    string getSSN()const;
+    double getWages()const;
+    int getMonth()const;
+    int getYear()const;
     void setName(string newname);
 
     friend ostream& operator << (ostream& out, const Employee& employee);

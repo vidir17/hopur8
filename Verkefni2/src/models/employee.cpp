@@ -25,21 +25,21 @@ Employee::Employee(string name, string socialSecurity, double wages, int month, 
     this->year = year;
 }
 
-string Employee::getName(){
+string Employee::getName() const{
     return name;
 
 }
-string Employee::getSSN(){
+string Employee::getSSN() const{
     return socialSecurity;
 }
-double Employee::getWages(){
+double Employee::getWages() const{
     return wages;
 
 }
-int Employee::getMonth(){
+int Employee::getMonth()const{
     return month;
 }
-int Employee::getYear(){
+int Employee::getYear()const{
     return year;
 }
 ostream& operator << (ostream& out, const Employee& employee){
@@ -52,10 +52,11 @@ ostream& operator << (ostream& out, const Employee& employee){
 istream& operator >> (istream& in, Employee& employee){
 
     cout << "Name: " << endl;
+
+
     in >> ws;
     getline(in, employee.name);//in >> employee.name;
 
-    //secondname
 
 
     cout << "Social security number: " << endl;

@@ -5,7 +5,7 @@
 #include <cstdlib>
 #include "staffui.h"
 #include <ctype.h>
-#include "viewsalary.h"
+//#include "viewsalary.h"
 
 void StaffUI::mainMenu(){
     cout << "Welcome!" << endl;
@@ -31,7 +31,25 @@ void StaffUI::validateInput(char choice){
     Employee employee;
 
     if(choice == '1'){
-        addsalary.addinfo(createEmployee());
+            try{
+                addsalary.addinfo(createEmployee());
+            }
+            catch(InvalidName){
+                cout << "That is not your real name, try again" << endl;
+            }
+            catch(InvalidSSN){
+                cout << "Please enter a valid SSN" << endl;
+            }
+            catch(InvalidWages){
+                cout << "Please enter the correct amount of wages " << endl;
+            }
+            catch(InvalidMonth){
+                cout << "Please enter the number of the month: " << endl;
+            }
+            catch(InvalidYear){
+                cout << "The year is 2017 you fool" << endl;
+            }
+
 
     }
     else if(choice == '2'){
@@ -52,9 +70,9 @@ void StaffUI::validateInput(char choice){
     else if(choice == '3'){
         cout << "Viewing total salary record" << endl;
         system("CLS");
-        Viewsalary viewsalary;
-        cout << viewsalary;
-        cin >> viewsalary;
+        //Viewsalary viewsalary;
+        //cout << viewsalary;
+        //cin >> viewsalary;
 
     }
     else if(choice == '4'){
