@@ -12,7 +12,7 @@
 	<iostream>
 	<string>
 
-1512727467 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+1512730160 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
 	<stdio.h>
 	<string>
 	<iostream>
@@ -30,7 +30,10 @@
 	<iostream>
 	"Employee.h"
 
-1512725510 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512731909 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
+	"Employee.h"
+
+1512729823 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"Salaryrepo.h"
 	<fstream>
 	<iostream>
@@ -39,11 +42,16 @@
 	"Addsalary.h"
 	"Salaryrepo.h"
 
-1512727031 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
+1512732876 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\viewsalary.cpp
+	"viewsalary.h"
+
+1512732766 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\viewsalary.h
+	<fstream>
+	<iostream>
+
+1512732914 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
 	<cstdlib>
 	"staffui.h"
 	<ctype.h>
-
-1512727874 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
-	"Employee.h"
+	"viewsalary.h"
 

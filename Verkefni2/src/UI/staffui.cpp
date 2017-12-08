@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include "staffui.h"
 #include <ctype.h>
+#include "viewsalary.h"
 void StaffUI::mainMenu(){
     cout << "Welcome!" << endl;
 
@@ -39,6 +40,10 @@ void StaffUI::validateInput(char choice){
     }
     else if(choice == '3'){
         cout << "Viewing total salary record" << endl;
+        system("CLS");
+        Viewsalary viewsalary;
+        cout << viewsalary;
+        cin >> viewsalary;
 
     }
     else if(choice == '4'){
@@ -58,24 +63,12 @@ Employee StaffUI::createEmployee() {
     double wages = 0.0;
     int month = 0, year = 0;
     system("CLS");
-    cout << "Name: " << endl;
-    cin >> name;
-
-    cout << "Social security number: " << endl;
-    for(int i = 0; i < 10; i++){
-    cin >> socialSecurity[i];
-    }
-
-    cout << "Wages: " << endl;
-    cin >> wages;
-
-    cout << "Month: " << endl;
-    cin >> month;
-
-    cout << "Year: " << endl;
-    cin >> year;
-    system("CLS");
     Employee employee(name, socialSecurity, wages, month, year);
+
+    cin >> employee;
+
+    system("CLS");
+
     return employee;
 }
 /*bool StaffUI::contains_number(const std::string &c)

@@ -58,10 +58,31 @@ ostream& operator << (ostream& out, const Employee& employee){
 }
 
 istream& operator >> (istream& in, Employee& employee){
-    in >> employee.name;
-    in >> employee.socialSecurity;
 
-    in >> employee.wages >> employee.month >> employee.year;
+    cout << "Name: " << endl;
+    in >> ws;
+    getline(in, employee.name);//in >> employee.name;
+
+    //secondname
+
+
+    cout << "Social security number: " << endl;
+
+    for(int i = 0; i < 10; i++){
+    in >> employee.socialSecurity[i];
+    }
+
+    cout << "Wages: " << endl;
+    in >> employee.wages;
+    //cin >> wages;
+
+    cout << "Month: " << endl;
+
+    in >> employee.month;
+    cout << "Year: " << endl;
+    in >> employee.year;
+    //cin >> year;*/
+
 
 
     return in;
