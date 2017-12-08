@@ -23,13 +23,15 @@ void SalaryRepo::addInfo(const Employee& employee){
     }
  }
 void SalaryRepo::getInfo(const Employee& employee){
-    char ch;
+    string ch;
     ifstream fin;
     fin.open("Salary.txt", ios::app);
     if(fin.is_open()){
          while(!fin.eof())
          {
-             fin.get(ch);
+             //fin.get(ch);
+             getline(fin, ch, ',');
+
              cout << ch << endl;
          }
      }

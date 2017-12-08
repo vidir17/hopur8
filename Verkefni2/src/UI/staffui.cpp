@@ -2,7 +2,7 @@
 //  UI.cpp
 //  Staff
 
-#include <cstdio>
+#include <cstdlib>
 #include "staffui.h"
 #include <ctype.h>
 void StaffUI::mainMenu(){
@@ -46,22 +46,25 @@ void StaffUI::validateInput(char choice){
 
     }
     else{
-        //exit(9);
+        exit(9);
     }
     cout << endl;
 
 }
 
 Employee StaffUI::createEmployee() {
-    string name, socialSecurity;
+    string name;
+    char socialSecurity[10];
     double wages = 0.0;
     int month = 0, year = 0;
-
+    system("CLS");
     cout << "Name: " << endl;
     cin >> name;
 
     cout << "Social security number: " << endl;
-    cin >> socialSecurity;
+    for(int i = 0; i < 10; i++){
+    cin >> socialSecurity[i];
+    }
 
     cout << "Wages: " << endl;
     cin >> wages;
@@ -71,7 +74,7 @@ Employee StaffUI::createEmployee() {
 
     cout << "Year: " << endl;
     cin >> year;
-
+    system("CLS");
     Employee employee(name, socialSecurity, wages, month, year);
     return employee;
 }

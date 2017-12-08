@@ -20,9 +20,9 @@ class Employee
 {
 public:
     Employee();
-    Employee(string name, string socialSecurity, double wages, int month, int year);
+    Employee(string name, char socialSecurity[10], double wages, int month, int year);
     string getName();
-    string getSSN();
+    char getSSN();
     double getWages();
     int getMonth();
     int getYear();
@@ -32,7 +32,7 @@ public:
 
 private:
     string name;
-    string socialSecurity;
+    char socialSecurity[10];
     double wages;
     int month;
     int year;
