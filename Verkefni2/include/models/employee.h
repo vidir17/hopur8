@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include <string>
 #include <iostream>
-#include "Addsalary.h"
 
 using namespace std;
 
@@ -20,19 +19,20 @@ class Employee
 {
 public:
     Employee();
-    Employee(string name, char socialSecurity[10], double wages, int month, int year);
+    Employee(string name, string socialSecurity, double wages, int month, int year);
     string getName();
-    char getSSN();
+    string getSSN();
     double getWages();
     int getMonth();
     int getYear();
+    void setName(string newname);
 
     friend ostream& operator << (ostream& out, const Employee& employee);
     friend istream& operator >> (istream& in, Employee& employee);
 
 private:
     string name;
-    char socialSecurity[10];
+    string socialSecurity;
     double wages;
     int month;
     int year;

@@ -12,6 +12,7 @@
 #include "Employee.h"
 #include "salaryrepo.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -25,9 +26,10 @@ public:
     AddSalary();
     void addinfo(const Employee& employee);
     void get_Info(const Employee& employee);
+    vector<Employee> withSameSSN(string ssn);
 
 private:
-
+    SalaryRepo salary;
 };
 
 #endif /* Addsalary_hpp */

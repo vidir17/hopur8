@@ -7,11 +7,13 @@ class Viewsalary
 {
     public:
         Viewsalary();
+        Viewsalary(string inputssn);
         //void opensalary();
+        string getInputssn(string inputssn);
         friend ostream& operator << (ostream& out, const Viewsalary& viewsalary);
         friend istream& operator >> (istream& in, Viewsalary& viewsalary);
     private:
-        int inputssn;
+        string inputssn;
 };
 
 #endif // VIEWSALARY_H

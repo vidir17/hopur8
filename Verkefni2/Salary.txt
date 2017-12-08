@@ -1,3 +1,2 @@
-Employee name: New name, SSN: 1111110000, Salary: 200, Month: 2, Year: 2017, ----------------
-Employee name: newest, SSN: 1111111111, Salary: 200, Month: 2, Year: 2017, ----------------
-Employee name: tvo nofn, SSN: 0000000000, Salary: 200, Month: 2, Year: 2017, ----------------
+stuli,2809923489,1.99,11,2017
+beebbop,1234567890,1234,11,2017

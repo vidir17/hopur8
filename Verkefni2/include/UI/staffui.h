@@ -8,7 +8,6 @@
 #define UI_hpp
 #include "Employee.h"
 #include "Addsalary.h"
-#include "Salaryrepo.h"
 #include <stdio.h>
 #include <iostream>
 #include <string>

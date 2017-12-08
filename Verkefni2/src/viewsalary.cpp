@@ -2,17 +2,41 @@
 
 Viewsalary::Viewsalary()
 {
-    inputssn = 0;
+    inputssn = "";
+}
+Viewsalary::Viewsalary(string inputssn)
+{
+    this->inputssn = inputssn;
+}
+string Viewsalary::getInputssn(string inputssn){
+    return this->inputssn;
 }
 ostream& operator << (ostream& out, const Viewsalary& viewsalary){
-     out << "Input search for SSN: ";
+     out << "Input search for SSN: " << endl;
      return out;
 }
 istream& operator >> (istream& in, Viewsalary& viewsalary){
-     in >> viewsalary.inputssn;
-     if(viewsalary.inputssn == 0000112222){
-            cout << "right";
+     //in >> viewsalary.inputssn;
+    string ch;
+    ifstream fin;
+    fin.open("Salary.txt", ios::app);
+    if(fin.is_open()){
+         while(!fin.eof())
+         {
+             //fin.get(ch);
+             getline(fin, ch, ',');
+             if(ch == "SSN: 1111111111"){
+             cout << ch << endl;
+             }
+         }
      }
+    else
+    {
+        cout << "404" << endl;
+    }
+        fin.close();
+
+
     return in;
 }
                 /*fin.open("out.txt");

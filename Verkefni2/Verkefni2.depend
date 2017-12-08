@@ -4,54 +4,55 @@
 	"employee.h"
 	<iostream>
 
-1512724563 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
+1512734883 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
 	"Employee.h"
 	"Addsalary.h"
-	"Salaryrepo.h"
 	<stdio.h>
 	<iostream>
 	<string>
 
-1512730160 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+1512736804 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
 	<stdio.h>
 	<string>
 	<iostream>
-	"Addsalary.h"
 
-1512724549 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
+1512737864 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
 	<stdio.h>
 	"Employee.h"
 	"salaryrepo.h"
 	<iostream>
+	<vector>
 
-1512724555 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
+1512738165 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
 	<stdio.h>
 	<fstream>
 	<iostream>
 	"Employee.h"
+	<vector>
+	<sstream>
 
-1512731909 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
+1512736976 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
 	"Employee.h"
 
-1512729823 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512738571 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"Salaryrepo.h"
 	<fstream>
 	<iostream>
 
-1512724581 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
+1512738200 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
 	"Addsalary.h"
 	"Salaryrepo.h"
 
-1512732876 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\viewsalary.cpp
-	"viewsalary.h"
-
-1512732766 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\viewsalary.h
-	<fstream>
-	<iostream>
-
-1512732914 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
+1512738614 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
 	<cstdlib>
 	"staffui.h"
 	<ctype.h>
+	"viewsalary.h"
+
+1512733780 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\viewsalary.h
+	<fstream>
+	<iostream>
+
+1512735012 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\viewsalary.cpp
 	"viewsalary.h"
 

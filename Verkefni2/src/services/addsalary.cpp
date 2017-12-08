@@ -18,5 +18,9 @@ void AddSalary::addinfo(const Employee& employee)
 void AddSalary::get_Info(const Employee& employee)
 {
     SalaryRepo salary_repo;
-    salary_repo.getInfo(employee);
+    salary_repo.getInfo();
+}
+
+vector<Employee> AddSalary::withSameSSN(string ssn){
+    return salary.withSameSSN(ssn);
 }

@@ -6,6 +6,7 @@
 #include "staffui.h"
 #include <ctype.h>
 #include "viewsalary.h"
+
 void StaffUI::mainMenu(){
     cout << "Welcome!" << endl;
 
@@ -34,8 +35,14 @@ void StaffUI::validateInput(char choice){
 
     }
     else if(choice == '2'){
-        addsalary.get_Info(employee);
-        cout << "Viewing an individual salary record" << endl;
+        //addsalary.get_Info(employee);
+        cout << "Please write the ssn of the employee you are looking for " << endl;
+        cout << "SSN: ";
+        string input;
+        cin >> input;
+        vector<Employee> test = addsalary.withSameSSN(input);
+        cout << "How big is test: " << test.size() << endl;
+        //cout << "Viewing an individual salary record" << endl;
 
     }
     else if(choice == '3'){
