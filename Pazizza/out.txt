@@ -5,10 +5,27 @@ Alegg: svepp
 Staerd: 16
 Verd: 1500
 
+
 Nr.
 ****
 Pizza: thebigwonder
 Alegg: thewow
 Staerd: 4
 Verd: 5000
+
+
+Nr.
+****
+Pizza: Hagkaupspizza
+Alegg: engin
+Staerd: 4
+Verd: 500
+
+
+Nr.
+****
+Pizza: newpizza
+Alegg: all
+Staerd: 16
+Verd: 2000
 

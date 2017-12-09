@@ -1,5 +1,27 @@
 #include "gagnasafn.h"
 
+void Gagnasafn::pontun_timi()
+{
+        ofstream fout;
+        fout.open("pantanir.txt", ios::app);
+
+        fout << "Pontun gerd: ";
+        double time2 = 24;
+        time_t t = time(0); //na i nuverandi tima
+        struct tm * timi = localtime( & t );
+
+        fout << (timi->tm_year + 1900) << '-'
+        << (timi->tm_mon + 1) << '-'
+        <<  timi->tm_mday << " Time: "
+        <<  timi->tm_hour << ":"
+        <<  timi->tm_min << "."
+
+
+        <<  timi->tm_sec
+        << endl;
+        fout.close();
+
+}
 void Gagnasafn::printfyrir1()
 {
     ifstream fin;
@@ -8,7 +30,7 @@ void Gagnasafn::printfyrir1()
             int counter = 0;
             system("CLS");
             cout << "THU HEFUR VALID PIZZU NUMER: " << 1 << endl;
-            while(counter < 7){ //7 línur
+            while(counter < 8){ //8 línur
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
 
@@ -62,12 +84,15 @@ void Gagnasafn::read() //Panta pizzu menu listi
         counter = 0;
         //fin.open("out.txt");
         fout.open("pantanir.txt", ios::app);
+
         while(counter < 7){
             getline(fin,ch);
             fout << ch << endl;
 
             counter++;
         }
+        pontun_timi();
+        fout << endl;
         fout.close();
         fin.close();
 
@@ -79,7 +104,7 @@ void Gagnasafn::read() //Panta pizzu menu listi
                 fin.open("out.txt");
                 fout.open("pantanir.txt", ios::app);
         while(input > teljari){
-            counter2 += 7;
+            counter2 += 8;
             while(counter < counter2){ //10 linur i einu
 
             getline(fin, ch); //naer i linu
@@ -92,7 +117,7 @@ void Gagnasafn::read() //Panta pizzu menu listi
         teljari++;
         }
             counter = 0;
-            counter2 = 7;
+            counter2 = 8;
             system("CLS");
             //fout.open("pantanir.txt", ios::app); //nytt
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << " Pontunar numerid thitt er: " << endl;
@@ -105,11 +130,16 @@ void Gagnasafn::read() //Panta pizzu menu listi
             fout << ch << endl;////////////////////////////////////////nytt
             counter++; //plusa counter fyrir hverja linu upp i 10 linur
             if(fin.eof()){
+
                 fout << endl;
-                fout.close();/////////////////////////////
+
+                //fout.close();/////////////////////////////
                 break;
             }
         }
+
+        pontun_timi();
+        fout.close();
         fin.close();
 
 
@@ -136,10 +166,13 @@ void Gagnasafn::insert_new_pizza()
     cin >> val4;
     fout << "Nr." << endl;
     fout << "****" << endl;
+
     fout << "Pizza: " << val1 << endl;
     fout << "Alegg: " << val2 << endl;
     fout << "Staerd: " << val3 << endl;
     fout << "Verd: " << val4 << endl;
+
+
     fout << endl;
 
     //Write string to the file.
@@ -201,17 +234,18 @@ void Gagnasafn::orders()
     }else{
     cout << "Engar pantanir a skra" << endl;
     }
+    fin.close();
 
         if(input == 1){
 
         fin.open("pantanir.txt");
         ofstream fout;
-
+        counter = 0;
         fout.open("bakstur.txt", ios::app);
-        while(counter < 7){
+        while(counter < 8){
 
             fin.getline(ch1, 100);
-            //getline(fin,ch1);
+            //getline(fin,ch);
 
             fout << ch1 << endl;
 
@@ -221,7 +255,7 @@ void Gagnasafn::orders()
         fout.close();
         fin.close();
         fin.open("pantanir.txt", ios::app);
-        while(counter < 7)
+        while(counter < 8)
         {
            fin.getline(ch1, 100);
 

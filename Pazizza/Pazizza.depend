@@ -11,14 +11,15 @@
 	"umsjon.h"
 	"bakari.h"
 
-1512851583 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
+1512855172 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
 	"gagnasafn.h"
 
-1512843398 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
+1512853146 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
 	<vector>
 	<fstream>
 	<stdlib.h>
 	<iostream>
+	<ctime>
 
 1512835826 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\pontunrepo.cpp
 	"pontunrepo.h"

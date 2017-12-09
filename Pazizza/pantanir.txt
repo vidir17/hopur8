@@ -1,14 +1,11 @@
+Pontun gerd: 2017-12-9 Time: 21:32.58
 Nr.
 ****
-Pizza: thebigwonder
-Alegg: thewow
-Staerd: 4
-Verd: 5000
-
-Nr.
-****
-Pizza: margartia
-Alegg: svepp
+Pizza: newpizza
+Alegg: all
 Staerd: 16
-Verd: 1500
+Verd: 2000
 
+
+
+Pontun gerd: 2017-12-9 Time: 21:33.6

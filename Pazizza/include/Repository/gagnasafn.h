@@ -4,6 +4,7 @@
 #include <fstream>
 #include <stdlib.h> //fyrir exit?
 #include <iostream> //must?
+#include <ctime> //fyrir tima
 using namespace std;
 class Gagnasafn
 {
@@ -15,6 +16,7 @@ class Gagnasafn
         void insert_new_pizza();
         void insert_new_topping();
         void orders();//Bakari skodar nyjar pantanir
+        void pontun_timi();
 };
 
 #endif // GAGNASAFN_H
