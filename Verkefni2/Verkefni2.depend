@@ -4,26 +4,32 @@
 	"employee.h"
 	<iostream>
 
-1512734883 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\ui\staffui.h
 	"Employee.h"
 	"Addsalary.h"
 	<stdio.h>
 	<iostream>
 	<string>
 
-1512736804 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\models\employee.h
 	<stdio.h>
 	<string>
 	<iostream>
 
-1512737864 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\services\addsalary.h
 	<stdio.h>
 	"Employee.h"
 	"salaryrepo.h"
+	"InvalidName.h"
+	"InvalidSSN.h"
+	"InvalidWages.h"
+	"InvalidMonth.h"
+	"InvalidYear.h"
 	<iostream>
 	<vector>
+	<string>
 
-1512738165 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\repo\salaryrepo.h
 	<stdio.h>
 	<fstream>
 	<iostream>
@@ -31,23 +37,22 @@
 	<vector>
 	<sstream>
 
-1512736976 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
+1512822170 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\models\employee.cpp
 	"Employee.h"
 
-1512739079 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
+1512739571 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\repo\salaryrepo.cpp
 	"Salaryrepo.h"
 	<fstream>
 	<iostream>
 
-1512738200 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
+1512822170 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\services\addsalary.cpp
 	"Addsalary.h"
 	"Salaryrepo.h"
 
-1512739079 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
+1512822169 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\ui\staffui.cpp
 	<cstdlib>
 	"staffui.h"
 	<ctype.h>
-	"viewsalary.h"
 
 1512733780 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\viewsalary.h
 	<fstream>
@@ -135,4 +140,29 @@
 	"InvalidYear.h"
 
 1512743160 c:\users\skata\desktop\verklegtnamskeid\hopur8\verkefni2\include\exceptions\invalidyear.h
+
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidname.h
+
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidssn.h
+
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidwages.h
+
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidmonth.h
+
+1512822169 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidyear.h
+
+1512822169 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\include\exceptions\invalidmonth.cpp
+	"InvalidMonth.h"
+
+1512822169 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\exceptions\invalidname.cpp
+	"InvalidName.h"
+
+1512822169 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\exceptions\invalidssn.cpp
+	"InvalidSSN.h"
+
+1512822169 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\exceptions\invalidwages.cpp
+	"InvalidWages.h"
+
+1512822170 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\verkefni2\src\exceptions\invalidyear.cpp
+	"InvalidYear.h"
 

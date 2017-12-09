@@ -1,14 +1,15 @@
 # depslib dependency file v1.0
-1512660506 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
+1512824532 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\main.cpp
 	<mainui.h>
 	<iostream>
 
-1512660286 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
+1512829770 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\mainui.cpp
 	<iostream>
 	"mainui.h"
 	"matsedill.h"
 	"vidskiptavinur.h"
 	"umsjon.h"
+	"pontun.h"
 	"bakari.h"
 
 1512660286 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\mainui.h
@@ -21,7 +22,7 @@
 	<fstream>
 	<stdlib.h>
 
-1512569798 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
+1512828574 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\matsedill.cpp
 	<iostream>
 	"matsedill.h"
 	"mainui.h"
@@ -51,15 +52,19 @@
 	"gagnagrunnur.h"
 	<iostream>
 
-1512573023 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller1.cpp
+1512828518 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller1.cpp
 	"controller1.h"
 	<iostream>
 	"gagnasafn.h"
 	<fstream>
 	"matsedill.h"
 
-1512134691 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller1.h
+1512830279 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller1.h
+	"buatil.h"
 	<iostream>
+	"gagnasafn.h"
+	<fstream>
+	"matsedill.h"
 
 1512131501 source:c:\users\vidirsnaer\desktop\order copy\theorder\main.cpp
 	<mainui.h>
@@ -121,13 +126,14 @@
 1512480968 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\dataskra.h
 	"matsedill.h"
 
-1512579674 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\gagnasafn.h
+1512826501 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\gagnasafn.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 	"controller1.h"
+	<vector>
 
-1512579905 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\gagnasafn.cpp
+1512827010 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\gagnasafn.cpp
 	"gagnasafn.h"
 	<fstream>
 
@@ -137,14 +143,14 @@
 	<stdlib.h>
 	"controller2.h"
 
-1512660573 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjon.cpp
+1512826475 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\umsjon.cpp
 	"umsjon.h"
 
-1512571731 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller2.h
+1512826475 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\controller2.h
 	<fstream>
 	<iostream>
 
-1512573687 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller2.cpp
+1512826475 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller2.cpp
 	"controller2.h"
 	"gagnasafn.h"
 
@@ -164,4 +170,10 @@
 
 1512575398 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\src\controller3.cpp
 	"controller3.h"
+
+1512830190 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\pontun.h
+	"matsedill.h"
+
+1512830217 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\theorder\include\buatil.h
+	<iostream>
 

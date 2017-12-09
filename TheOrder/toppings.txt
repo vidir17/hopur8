@@ -1,0 +1,5 @@
+Sveppir,200
+Pepperoni,250
+Ananas,100
+Skinka,300
+hakk,150

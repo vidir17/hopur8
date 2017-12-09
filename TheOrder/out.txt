@@ -63,3 +63,9 @@ Alegg: aleggid
 Staerd: staerdin
 Verd: verdid
 
+
+
+Nr.
+****
+Pizza: Pizza
+Alegg: margarita

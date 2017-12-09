@@ -11,7 +11,7 @@ Matsedill::Matsedill()
 istream& operator >> (istream& in, Matsedill& matsedill){
 
     Controller1 controller1;
-    in >> controller1;
+    controller1.prenta();
     return in;
 }
 ostream& operator << (ostream& out, Matsedill& matsedill){

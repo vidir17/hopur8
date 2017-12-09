@@ -3,6 +3,7 @@
 #include "matsedill.h"
 #include "vidskiptavinur.h"
 #include "umsjon.h"
+#include "pontun.h"
 #include "bakari.h"
 MainUI::MainUI()
 {
@@ -18,14 +19,40 @@ istream& operator >> (istream& in, MainUI& mainUI){
         in >> mainUI.choice;
         if(mainUI.choice == 1){ //Panta pitsu user valinn
         system ("CLS");
-        cout << "1. Matsedill\n2. Bua til pizzu" << endl;
-        in >> mainUI.choice;
+        cout << "Enter your password" << endl;
+        cout << "Password: ";
+        while(mainUI.password != "azziP"){ ///////////////////////////////
+
+        cin >> mainUI.password;
+            if(mainUI.password == "azziP"){
+            system("CLS");
+            cout << "1. Matsedill\n2. Bua til pizzu" << endl;
+          in >> mainUI.choice;
+
         if(mainUI.choice == 1){
+            /*
             Matsedill matsedill; //Vidskiptavinur breyta , Matsedill matsedill
             //cout << vidskiptavin << endl;
             in >> matsedill;
-
+*/
+            Pontun pontun;
+            pontun.matargat();
         }
+        if(mainUI.choice == 2){
+            Pontun pontun;
+            pontun.setjasaman();
+        }
+
+            }else{
+                system("CLS");
+                cout << "wrong password" << endl;
+                cout << "Please try again: ";
+            }
+            //////////////////////////////////klasifyrir bakari
+        }
+
+
+
         }
         if(mainUI.choice == 2){ //Umsjonarmadur valinn
         system ("CLS");
