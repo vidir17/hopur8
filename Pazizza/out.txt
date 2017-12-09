@@ -1,12 +1,14 @@
 Nr.
 ****
-Pizza: MArgarita
-Alegg: sveppir
+Pizza: margartia
+Alegg: svepp
 Staerd: 16
 Verd: 1500
 
-
-
 Nr.
 ****
-Pizza: Margarita
+Pizza: thebigwonder
+Alegg: thewow
+Staerd: 4
+Verd: 5000
+

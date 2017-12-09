@@ -1,35 +1,93 @@
-
-
-
-
-
-
-
 Nr.
 ****
-Pizza: MArgarita
-Alegg: sveppir
+Pizza: margartia2
+Alegg: svepp
 Staerd: 16
 Verd: 1500
 
-Nr.
-****
-Pizza: MArgarita
-Alegg: sveppir
-Staerd: 16
-Verd: 1500
 
-Nr.
-****
-Pizza: MArgarita
-Alegg: sveppir
-Staerd: 16
-Verd: 1500
 
-Nr.
-****
-Pizza: MArgarita
-Alegg: sveppir
-Staerd: 16
-Verd: 1500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

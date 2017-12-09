@@ -21,10 +21,10 @@ istream& operator >> (istream& in, MainUI& mainUI){
         system ("CLS"); //clear screen
         cout << "Enter your password" << endl;
         cout << "Password: ";
-        while(mainUI.password != "azziP"){ ///////////////////////////////
+        while(mainUI.password != "1"){ ///////////////////////////////
 
         in >> mainUI.password;
-            if(mainUI.password == "azziP"){
+            if(mainUI.password == "1"){
             system("CLS");
             cout << "1. Matsedill\n2. Bua til pizzu" << endl;
         in >> mainUI.choice;
@@ -59,11 +59,15 @@ istream& operator >> (istream& in, MainUI& mainUI){
         system ("CLS");
         cout << "Enter your password" << endl;
         cout << "Password: ";
-        while(mainUI.password != "azziP"){
+        while(mainUI.password != "1"){
 
             cin >> mainUI.password; ////////////////////////breyta i char??? thegar ein char er skradur, prentast ut stjarna, option til ad eyda?
 
-            if(mainUI.password == "azziP"){
+            if(mainUI.password == "1"){
+                system("CLS");
+                cout << "1. New pizza on menu" << endl;
+                cout << "2. New toppings" << endl;
+                cout << "choose number: ";
                 cin >> mainUI.choice;
                 if(mainUI.choice == 1)
                 {
@@ -85,17 +89,19 @@ istream& operator >> (istream& in, MainUI& mainUI){
 
        }
 
-       /* if(mainUI.choice == 3){ //Bakari
+        if(mainUI.choice == 3){ //Bakari
         system ("CLS");
         cout << "Enter your password" << endl;
         cout << "Password: ";
-        while(mainUI.password != "azziP"){
+        while(mainUI.password != "1"){
 
             cin >> mainUI.password;
-            if(mainUI.password == "azziP"){
-                 Bakari bakari;
-                cout << bakari;
-                in >> bakari;
+            if(mainUI.password == "1"){
+
+                //skoda elstu pontun, valmoguleiki hefja bakstur eda loka forriti
+                Bakari bakari;
+                bakari.view();
+
             }else{
                 system("CLS");
                 cout << "wrong password" << endl;
@@ -105,6 +111,7 @@ istream& operator >> (istream& in, MainUI& mainUI){
         }
 
         }
+        /*
         if(mainUI.choice == 4){ //Solumadur afgreidslu
         system ("CLS");
         cout << "Enter your password" << endl;

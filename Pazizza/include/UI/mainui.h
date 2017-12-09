@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "buatilpontun.h"
 #include "umsjon.h"
+#include "bakari.h"
 using namespace std;
 class MainUI{
 

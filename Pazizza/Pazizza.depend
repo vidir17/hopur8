@@ -3,17 +3,18 @@
 	"mainui.h"
 	<iostream>
 
-1512838518 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\ui\mainui.h
+1512843553 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\ui\mainui.h
 	<iostream>
 	<fstream>
 	<stdlib.h>
 	"buatilpontun.h"
 	"umsjon.h"
+	"bakari.h"
 
-1512839871 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
+1512848737 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
 	"gagnasafn.h"
 
-1512838556 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
+1512843398 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
 	<vector>
 	<fstream>
 	<stdlib.h>
@@ -43,7 +44,19 @@
 1512838518 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\umsjon.cpp
 	"umsjon.h"
 
-1512839556 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\ui\mainui.cpp
+1512843398 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\ui\mainui.cpp
 	<iostream>
 	"mainui.h"
+
+1512843398 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\bakarirepo.cpp
+	"bakarirepo.h"
+
+1512843411 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\bakarirepo.h
+	"gagnasafn.h"
+
+1512843454 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\bakari.h
+	"bakarirepo.h"
+
+1512843531 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\bakari.cpp
+	"bakari.h"
 
