@@ -74,13 +74,17 @@ void Gagnasafn::read() //Panta pizzu menu listi
 
         }
         counter = 0;
+        int counter3 = 0;
         if(input > 1){
                 fin.open("out.txt");
+                fout.open("pantanir.txt", ios::app);
         while(input > teljari){
             counter2 += 7;
             while(counter < counter2){ //10 linur i einu
 
             getline(fin, ch); //naer i linu
+
+
 
              //prentar ut
         counter++; //plusa counter fyrir hverja linu upp i 10 linur
@@ -90,16 +94,24 @@ void Gagnasafn::read() //Panta pizzu menu listi
             counter = 0;
             counter2 = 7;
             system("CLS");
+            //fout.open("pantanir.txt", ios::app); //nytt
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << " Pontunar numerid thitt er: " << endl;
+            //fout << "Nr. " << endl;//////////
+            //fout << "****" << endl;//////////
             while(counter < counter2){ //10 linur i einu
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
-        counter++; //plusa counter fyrir hverja linu upp i 10 linur
+
+            fout << ch << endl;////////////////////////////////////////nytt
+            counter++; //plusa counter fyrir hverja linu upp i 10 linur
             if(fin.eof()){
+                fout << endl;
+                fout.close();/////////////////////////////
                 break;
             }
         }
         fin.close();
+
 
         }
 

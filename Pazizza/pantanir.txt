@@ -1,0 +1,14 @@
+Nr.
+****
+Pizza: thebigwonder
+Alegg: thewow
+Staerd: 4
+Verd: 5000
+
+Nr.
+****
+Pizza: margartia
+Alegg: svepp
+Staerd: 16
+Verd: 1500
+
