@@ -175,35 +175,18 @@ void Gagnasafn::orders()
     cin >> input;
     if(input == 1){
     system("CLS");
+
     while(fin.getline(ch1, 100))
     {
       cout << ch1 << endl;
     }
     }
     fin.close();
-    cout << "Yttu a x til ad hefja bakstur: ";
+    cout << "Yttu a 1 til ad hefja bakstur: ";
     cin >> input;
 
         if(input == 1){
-            /*
-                ifstream fin;
-    fin.open("out.txt");
 
-    ofstream fout;
-    fout.open("sample.txt");
-
-    char ch;
-
-    while(!fin.eof())
-    {
-        fin.get(ch);
-        fout << ch;
-    }
-
-    fin.close();
-    fout.close();
-
-        */
         fin.open("pantanir.txt");
         ofstream fout;
 
@@ -229,7 +212,7 @@ void Gagnasafn::orders()
            counter++;
         }
         fout.open("temp.txt", ios::app);
-        while(counter < 100)
+        /*while(counter < 100)
         {
             fin.getline(ch1, 100);
             //getline(fin,ch1);
@@ -237,6 +220,10 @@ void Gagnasafn::orders()
             fout << ch1 << endl;
 
             counter++;
+        }*/
+        while(fin.getline(ch1, 100))
+        {
+            fout << ch1 << endl;
         }
         fout.close();
         fin.close();
