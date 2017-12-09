@@ -94,3 +94,38 @@ Alegg: svepp
 Staerd: 16
 Verd: 1500
 
+Nr.
+****
+Pizza: margartia2
+Alegg: svepp
+Staerd: 16
+Verd: 1500
+Nr.
+****
+Pizza: margartia
+Alegg: svepp
+Staerd: 16
+Verd: 1500
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

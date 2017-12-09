@@ -1,6 +1,0 @@
-Nr.
-****
-Pizza: margartia2
-Alegg: svepp
-Staerd: 16
-Verd: 1500

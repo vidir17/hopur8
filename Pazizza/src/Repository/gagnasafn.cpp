@@ -182,8 +182,13 @@ void Gagnasafn::orders()
     }
     }
     fin.close();
+    fin.open("pantanir.txt");
+    if(fin.getline(ch1, 100)){
     cout << "Yttu a 1 til ad hefja bakstur: ";
     cin >> input;
+    }else{
+    cout << "Engar pantanir a skra" << endl;
+    }
 
         if(input == 1){
 
