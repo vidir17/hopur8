@@ -1,6 +1,7 @@
 #ifndef BUATIL_H
 #define BUATIL_H
 #include <iostream>
+
 using namespace std;
 
 class Buatil
