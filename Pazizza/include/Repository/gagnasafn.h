@@ -17,6 +17,10 @@ class Gagnasafn
         void insert_new_topping();
         void orders();//Bakari skodar nyjar pantanir
         void pontun_timi();
+        void afgreidsla_loopa();
+        void view_pre(); //inn i loopu
+        void view_bake(); //inn i loopu
+        //void view_completed(); //inn i loopu
 };
 
 #endif // GAGNASAFN_H

@@ -111,16 +111,18 @@ istream& operator >> (istream& in, MainUI& mainUI){
         }
 
         }
-        /*
+
         if(mainUI.choice == 4){ //Solumadur afgreidslu
         system ("CLS");
         cout << "Enter your password" << endl;
         cout << "Password: ";
-        while(mainUI.password != "azziP"){
+        while(mainUI.password != "1"){
 
             cin >> mainUI.password;
-            if(mainUI.password == "azziP"){
-                cout << "correct";//inn i klasa
+            if(mainUI.password == "1"){
+                     system("CLS");
+                Afgreidsla afgreidsla;
+                afgreidsla.Listi_oklarad();
             }else{
                 system("CLS");
                 cout << "wrong password" << endl;
@@ -129,7 +131,7 @@ istream& operator >> (istream& in, MainUI& mainUI){
             //////////////////////////////////klasifyrir solumadur afgreidslu
         }
 
-        }*/
+        }
         return in;
     }
     ostream& operator << (ostream& out, MainUI& mainUI){

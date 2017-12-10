@@ -6,7 +6,7 @@ void Gagnasafn::pontun_timi()
         fout.open("pantanir.txt", ios::app);
 
         fout << "Pontun gerd: ";
-        double time2 = 24;
+        //double time2 = 24;
         time_t t = time(0); //na i nuverandi tima
         struct tm * timi = localtime( & t );
 
@@ -99,7 +99,7 @@ void Gagnasafn::read() //Panta pizzu menu listi
 
         }
         counter = 0;
-        int counter3 = 0;
+        //int counter3 = 0;
         if(input > 1){
                 fin.open("out.txt");
                 fout.open("pantanir.txt", ios::app);
@@ -286,3 +286,67 @@ void Gagnasafn::orders()
         }
 //            rename("temp.txt", "pantanir.txt)
 }
+void Gagnasafn::afgreidsla_loopa()
+{
+    int view;
+    bool run = true;
+    while(run){
+
+        cout << endl;
+        cout << "Veldu 1 til ad skoda pantanir pending" << endl;
+        cout << "Veldu 2 til ad skoda pantanir i bakstri" << endl;
+        cout << endl;
+        cin >> view;
+        if(view == 1){
+        system("CLS");
+        view_pre();
+        }
+        if(view == 2){
+        system("CLS");
+        view_bake();
+        }
+    /*
+        if(view == 3){
+        system("CLS");
+        view_completed();
+        break;
+        }*/
+    }
+}
+
+void Gagnasafn::view_pre()
+{
+    ifstream fin;
+    char ch1[100];
+    fin.open("pantanir.txt");
+    while(fin.getline(ch1, 100)){ //10 linur i einu
+            //getline(fin, ch1); //naer i linu
+            cout << ch1 << endl;
+    }
+    fin.close();
+
+}
+void Gagnasafn::view_bake()
+{
+    ifstream fin;
+    char ch1[100];
+    fin.open("bakstur.txt");
+     while(fin.getline(ch1, 100)){ //10 linur i einu
+            //getline(fin, ch1); //naer i linu
+            cout << ch1 << endl;
+    }
+    fin.close();
+}
+/*
+void Gagnasafn::view_completed()
+{
+    ifstream fin;
+    char ch1[100];
+    fin.open("bakstur.txt"); //eftir ad breyta
+     while(fin.getline(ch1, 100)){ //10 linur i einu
+            //getline(fin, ch1); //naer i linu
+            cout << ch1 << endl;
+    }
+    fin.close();
+}
+*/

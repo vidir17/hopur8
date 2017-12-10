@@ -6,6 +6,7 @@
 #include "buatilpontun.h"
 #include "umsjon.h"
 #include "bakari.h"
+#include "afgreidsla.h"
 using namespace std;
 class MainUI{
 
