@@ -6,3 +6,19 @@ Staerd: 16
 Verd: 2300kr
 
 Pontun gerd: 2017-12-10 Time: 20:37.37
+Nr. 
+****
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
+Staerd: 16
+Verd: 2300kr
+
+
+Pontun gerd: 2017-12-11 Time: 11:24.30Nr.1
+****
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
+Staerd: 16
+Verd: 2300kr
+
+Pontun gerd: 2017-12-11 Time: 15:17.20

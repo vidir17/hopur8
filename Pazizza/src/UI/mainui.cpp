@@ -68,6 +68,9 @@ istream& operator >> (istream& in, MainUI& mainUI){
                 system("CLS");
                 cout << "1. New pizza on menu" << endl;
                 cout << "2. New toppings" << endl;
+                cout << "3. New medlaeti" << endl;
+                cout << "4. New botn" << endl;
+                cout << "5. New size of pizza" << endl;
                 cout << "choose number: ";
                 cin >> mainUI.choice;
                 if(mainUI.choice == 1)
@@ -79,6 +82,21 @@ istream& operator >> (istream& in, MainUI& mainUI){
                 {
                     Umsjon umsjon;
                     umsjon.new_toppings();
+                }
+                else if(mainUI.choice == 3)/////
+                {
+                    Umsjon umsjon;
+                    umsjon.new_medlaeti();
+                }
+                else if(mainUI.choice == 4)
+                {
+                    Umsjon umsjon;
+                    umsjon.new_botn();
+                }
+                else if(mainUI.choice == 5)
+                {
+                    Umsjon umsjon;
+                    umsjon.new_staerdir();
                 }
             }else{
                 system("CLS");
