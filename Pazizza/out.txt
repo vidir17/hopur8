@@ -1,31 +1,13 @@
-Nr.
+Nr.1
 ****
-Pizza: margartia
-Alegg: svepp
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
 Staerd: 16
-Verd: 1500
+Verd: 2300kr
 
-
-Nr.
+Nr.2
 ****
-Pizza: thebigwonder
-Alegg: thewow
-Staerd: 4
-Verd: 5000
-
-
-Nr.
-****
-Pizza: Hagkaupspizza
-Alegg: engin
-Staerd: 4
-Verd: 500
-
-
-Nr.
-****
-Pizza: newpizza
-Alegg: all
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
 Staerd: 16
-Verd: 2000
-
+Verd: 2300kr

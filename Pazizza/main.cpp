@@ -6,8 +6,10 @@ int main()
 {
 
     MainUI user;
-    cout << user; //Prentar ut fra MainUI
+
+    cout << user;//Prentar ut fra MainUI
     cin >> user; //Fer inn i MainUI klasa
+
 
     return 0;
 }

@@ -15,6 +15,7 @@ MainUI::MainUI(int choice, string password){
         this->password = password; //breyta fyrir lykilord
 }
 
+
 istream& operator >> (istream& in, MainUI& mainUI){
         in >> mainUI.choice; //input fyrir val notanda
         if(mainUI.choice == 1){ //Panta pitsu user valinn

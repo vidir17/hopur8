@@ -17,8 +17,7 @@ void Gagnasafn::pontun_timi()
         <<  timi->tm_min << "."
 
 
-        <<  timi->tm_sec
-        << endl;
+        <<  timi->tm_sec;
         fout.close();
 
 }
@@ -30,7 +29,7 @@ void Gagnasafn::printfyrir1()
             int counter = 0;
             system("CLS");
             cout << "THU HEFUR VALID PIZZU NUMER: " << 1 << endl;
-            while(counter < 8){ //8 línur
+            while(counter < 7){ //8 línur
             getline(fin, ch); //naer i linu
             cout << ch << endl; //prentar ut
 
@@ -121,7 +120,9 @@ void Gagnasafn::read() //Panta pizzu menu listi
             system("CLS");
             //fout.open("pantanir.txt", ios::app); //nytt
             cout << "THU HEFUR VALID PIZZU NUMER: " << input << " Pontunar numerid thitt er: " << endl;
-            //fout << "Nr. " << endl;//////////
+            cout << "Nr. " << endl;
+
+            fout << "Nr. " << endl;//////////
             //fout << "****" << endl;//////////
             while(counter < counter2){ //10 linur i einu
             getline(fin, ch); //naer i linu
@@ -164,6 +165,7 @@ void Gagnasafn::insert_new_pizza()
     cin >> val3;
     cout << "Verd: ";
     cin >> val4;
+
     fout << "Nr." << endl;
     fout << "****" << endl;
 
@@ -295,6 +297,7 @@ void Gagnasafn::afgreidsla_loopa()
         cout << endl;
         cout << "Veldu 1 til ad skoda pantanir pending" << endl;
         cout << "Veldu 2 til ad skoda pantanir i bakstri" << endl;
+        cout << "3 fyrir greidslu og afhendingu a pizzu" << endl;
         cout << endl;
         cin >> view;
         if(view == 1){

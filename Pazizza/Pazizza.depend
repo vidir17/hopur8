@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1512912278 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\main.cpp
+1512928680 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\main.cpp
 	"mainui.h"
 	<iostream>
 
@@ -12,7 +12,7 @@
 	"bakari.h"
 	"afgreidsla.h"
 
-1512914282 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
+1512934708 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
 	"gagnasafn.h"
 
 1512914120 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
@@ -46,7 +46,7 @@
 1512838518 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\umsjon.cpp
 	"umsjon.h"
 
-1512914282 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\ui\mainui.cpp
+1512928588 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\ui\mainui.cpp
 	<iostream>
 	"mainui.h"
 
@@ -59,7 +59,7 @@
 1512843454 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\bakari.h
 	"bakarirepo.h"
 
-1512843531 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\bakari.cpp
+1512929409 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\bakari.cpp
 	"bakari.h"
 
 1512913255 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\afgreidslarepo.cpp

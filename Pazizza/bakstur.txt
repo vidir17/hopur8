@@ -1,8 +1,48 @@
-Nr.
+Nr. 
 ****
-Pizza: margartia
-Alegg: svepp
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
 Staerd: 16
-Verd: 1500
+Verd: 2300kr
 
-Pontun gerd: 2017-12-10 Time: 13:58.57
+
+Pontun gerd: 2017-12-10 Time: 19:29.31Nr.1
+****
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
+Staerd: 16
+Verd: 2300kr
+
+Pontun gerd: 2017-12-10 Time: 19:29.45
+Nr. 
+****
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
+Staerd: 16
+Verd: 2300kr
+
+
+Pontun gerd: 2017-12-10 Time: 19:29.54
+Nr. 
+****
+Pizza: Svepperoni
+Alegg: Sveppir&Pepperoni
+Staerd: 16
+Verd: 2300kr
+
+
+Pontun gerd: 2017-12-10 Time: 19:44.11
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -38,19 +38,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Repository/afgreidslarepo.h" />
 		<Unit filename="include/Repository/bakarirepo.h" />
 		<Unit filename="include/Repository/gagnasafn.h" />
 		<Unit filename="include/Repository/pontunrepo.h" />
 		<Unit filename="include/Repository/umsjonrepo.h" />
+		<Unit filename="include/Services/afgreidsla.h" />
 		<Unit filename="include/Services/bakari.h" />
 		<Unit filename="include/Services/buatilpontun.h" />
 		<Unit filename="include/Services/umsjon.h" />
 		<Unit filename="include/UI/mainui.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Repository/afgreidslarepo.cpp" />
 		<Unit filename="src/Repository/bakarirepo.cpp" />
 		<Unit filename="src/Repository/gagnasafn.cpp" />
 		<Unit filename="src/Repository/pontunrepo.cpp" />
 		<Unit filename="src/Repository/umsjonrepo.cpp" />
+		<Unit filename="src/Services/afgreidsla.cpp" />
 		<Unit filename="src/Services/bakari.cpp" />
 		<Unit filename="src/Services/buatilpontun.cpp" />
 		<Unit filename="src/Services/umsjon.cpp" />
