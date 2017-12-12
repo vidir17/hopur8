@@ -11,10 +11,10 @@ ToppingRepo::~ToppingRepo()
     //dtor
 }
 
-/*void ToppingRepo::storeAllToppings(const vector<Topping> &toppings){
+void ToppingRepo::storeAllToppings(const vector<Topping> &toppings){
 
     ofstream fout;
-    fout.open("toppings.txt", ios::binary);
+    fout.open("toppings.bin", ios::binary|ios::app); //baetti vid app
 
     int toppingCount = toppings.size();
 
@@ -33,7 +33,7 @@ vector<Topping> ToppingRepo::retrieveAllToppings(){
     Topping topping;
 
     ifstream fin;
-    fin.open("toppings.txt", ios::binary);
+    fin.open("toppings.bin", ios::binary);
 
     if(fin.is_open()){
     int toppingCount;
@@ -46,9 +46,9 @@ vector<Topping> ToppingRepo::retrieveAllToppings(){
     }
 
         fin.close();
-    }
+    /*}
     else {
-        throw slubbb; //exceptions
+        throw slubbb; //exceptions */
     }
     return toppings;
-}*/
+}

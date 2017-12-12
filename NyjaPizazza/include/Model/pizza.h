@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+#include <stddef.h>
+#include <fstream>
 
 using namespace std;
 
@@ -12,20 +14,33 @@ class Pizza
 {
     public:
         Pizza();
-        virtual ~Pizza();
+        Pizza(string name, int size, int base);
+        string getName();
+        int getSize();
+        int getBase();
+        //void getToppings();
+        void setName();
+        void setSize();
+        void setBase();
+        vector<Topping> getpizzaTopping();
+        void setVec(vector<Topping> pizzaTopping);
 
-        void addTopping(Topping topping);
 
-        void write(ofstream& fout) const;
+
+
+        /*void write(ofstream& fout) const;
         void read(ifstream& fin);
 
         friend istream& operator >> (istream& in, Pizza& pizza);
-        friend ostream& operator << (ostream& out, const Pizza& pizza);
+        friend ostream& operator << (ostream& out, const Pizza& pizza); faera i repo*/
 
     protected:
 
     private:
-        vector<Topping> toppings;
+        string name;
+        int size;
+        int base;
+        vector<Topping> pizzaTopping;
 };
 
 #endif // PIZZA_H

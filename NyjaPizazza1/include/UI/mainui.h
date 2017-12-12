@@ -2,8 +2,7 @@
 #define MAINUI_H
 #include "pizza.h"
 #include "topping.h"
-#include "managementui.h"
-
+#include "management.h"
 
 #include <stdio.h>
 #include <iostream>

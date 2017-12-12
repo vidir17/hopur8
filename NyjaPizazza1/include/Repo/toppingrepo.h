@@ -4,7 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-//#include "topping.h"
+#include "topping.h"
 #include "pizza.h"
 
 using namespace std;

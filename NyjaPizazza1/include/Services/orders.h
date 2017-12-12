@@ -12,12 +12,12 @@ class Orders
 {
     public:
         Orders();
+        virtual ~Orders();
+        void choices();
 
-        //void makeOrder(); //fall sem tekur niður pontun og skilar af sér skranni orders.txt
-
+    protected:
 
     private:
-        //repository
 };
 
 #endif // ORDERS_H

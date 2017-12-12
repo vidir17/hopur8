@@ -18,9 +18,17 @@ void Management::addTopping()
     Repository umsjonrepo;
     umsjonrepo.toppings();
 }
+*/
+void Management::Choices(){
 
-void Management::addPizza(){
+    char choice = '\0';
 
+    cout << "p: make pizza" << endl;
+    cout << "t: add topping" << endl;
+
+    cin >> choice;
+
+    if(choice == 'p'){
 
         vector<Topping> toppings = toppingRepo.retrieveAllToppings();
 
@@ -42,12 +50,10 @@ void Management::addPizza(){
         //pizzaRepository.storePizza(pizza);
 
         cout << endl;
+    }
 
-}
- void Management::addTopping(){
+    else if(choice == 't'){
 
-
-    Topping topping;
         vector<Topping> toppings = toppingRepo.retrieveAllToppings();
         cout << "These are our current toppings: " << endl;
         for(unsigned int i = 0; i < toppings.size(); i++){
@@ -55,7 +61,7 @@ void Management::addPizza(){
         }
 
         char selection = 'y';
-
+        Topping topping;
         while(selection == 'y'){
 
             cout << endl;
@@ -66,11 +72,7 @@ void Management::addPizza(){
             cin >> topping;
             toppings.push_back(topping);
         }
-        else{
-            cout << "OK THEN!!!" << endl;
-
     }
         toppingRepo.storeAllToppings(toppings);
 }
-
- }*/
+}

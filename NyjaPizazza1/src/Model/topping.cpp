@@ -1,31 +1,22 @@
+#include <fstream>
 #include "topping.h"
 
 Topping::Topping()
 {
-    name = "";
-    price = 0;
+    //ctor
 }
 
-Topping::Topping(string name, int price){
+Topping::Topping(string name, double price){
 
     this->name = name;
     this->price = price;
 }
 
-string Topping::getName(){
-    return name;
-}
-int Topping::getPrice(){
-    return price;
-}
-void Topping::setName(){
-    this->name = name;
-}
-void Topping::setPrice(){
-    this->price = price;
+Topping::~Topping()
+{
+    //dtor
 }
 
-/*
 void Topping::write(ofstream& fout) const {
 
     int stringLength = name.length() + 1;
@@ -66,4 +57,4 @@ ostream& operator << (ostream& out, const Topping& topping){
     out << "Price: " << topping.price;
 
     return out;
-}*/
+}

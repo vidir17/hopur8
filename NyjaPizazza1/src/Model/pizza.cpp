@@ -1,52 +1,21 @@
 #include "pizza.h"
-
-///þarf að athuga með færibreytuconstructor
+#include <stddef.h>
+#include <fstream>
 
 using namespace std;
 
 Pizza::Pizza()
 {
-    name = "";
-    size = 0;
-    base = 0;
-}
-Pizza::Pizza(string name, int size, int base){
-
-    this->name = name;
-    this->size = size;
-    this->base = base;
-
+    //ctor
 }
 
-string Pizza::getName(){
-    return name;
+Pizza::~Pizza()
+{
+    //dtor
 }
-int Pizza::getSize(){
-    return size;
-}
-int Pizza::getBase(){
-    return base;
-}
-vector<Topping> Pizza::getpizzaTopping(){
-    return pizzaTopping;
-}
-void Pizza::setName(){
-    name = name;
-}
-void Pizza::setSize(){
-    size = size;
-}
-void Pizza::setBase(){
-    base = base;
-}
-void setVec(vector<Topping> pizzaTopping){
-    pizzaTopping = pizzaTopping;
-}
+void Pizza::addTopping(Topping topping){
 
-/*vector<Topping> Pizza::AllPizzaTopping(string topping){
-
-    topping.push_back(AllPitopping);
-    return topping;
+    toppings.push_back(topping);
 }
 
 void Pizza::write(ofstream& fout) const {
@@ -91,4 +60,4 @@ ostream& operator << (ostream& out, const Pizza& pizza){
         out << pizza.toppings[i] << endl;
     }
     return out;
-}*/
+}

@@ -18,7 +18,7 @@ void MainUI::mainMenu(){ // Menu for user printed out on the screen
 
     if(choice == 'm' || choice == 'M'){
 
-            ManagementUI management;
+            Management management;
             management.Choices();
 
 
@@ -26,24 +26,21 @@ void MainUI::mainMenu(){ // Menu for user printed out on the screen
    /* else(choice == 'o' || choice == 'O'){
 
         Orders orders;
-        orders.makeOrder();
+        orders.choices();
     }
     else if(choice == 'c' || choice == 'C'){
 
-         Chef chef;
-         chef.viewOrder;
+        cout chefs;
     }
     else if(choice == 's' || choice == 'S'){
 
-        Service service;
-        service.calculatePrice;
+        cout << "service";
     }
 
     else{
-
-        exceptions
+        break;*/
     }
-*/
 
-}
+
+
 

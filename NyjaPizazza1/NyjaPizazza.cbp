@@ -44,23 +44,17 @@
 		<Unit filename="include/Model/topping.h" />
 		<Unit filename="include/Repo/repository.h" />
 		<Unit filename="include/Repo/toppingrepo.h" />
-		<Unit filename="include/Services/chef.h" />
 		<Unit filename="include/Services/management.h" />
 		<Unit filename="include/Services/orders.h" />
-		<Unit filename="include/Services/service.h" />
 		<Unit filename="include/UI/mainui.h" />
-		<Unit filename="include/UI/managementui.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Model/pizza.cpp" />
 		<Unit filename="src/Model/topping.cpp" />
 		<Unit filename="src/Repo/repository.cpp" />
 		<Unit filename="src/Repo/toppingrepo.cpp" />
-		<Unit filename="src/Services/chef.cpp" />
 		<Unit filename="src/Services/management.cpp" />
 		<Unit filename="src/Services/orders.cpp" />
-		<Unit filename="src/Services/service.cpp" />
 		<Unit filename="src/UI/mainui.cpp" />
-		<Unit filename="src/UI/managementui.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
