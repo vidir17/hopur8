@@ -69,3 +69,71 @@
 1513036663 source:c:\users\skata\desktop\nyjapizazza\src\ui\mainui.cpp
 	"mainui.h"
 
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\main.cpp
+	"mainui.h"
+	<iostream>
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\ui\mainui.h
+	"pizza.h"
+	"topping.h"
+	"management.h"
+	<stdio.h>
+	<iostream>
+	<string>
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\model\pizza.h
+	<iostream>
+	<vector>
+	"topping.h"
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\model\topping.h
+	<iostream>
+	<string>
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\management.h
+	"pizza.h"
+	"topping.h"
+	"toppingrepo.h"
+	<vector>
+	<iostream>
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\repo\toppingrepo.h
+	<iostream>
+	<fstream>
+	<vector>
+	"topping.h"
+	"pizza.h"
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\model\pizza.cpp
+	"pizza.h"
+	<stddef.h>
+	<fstream>
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\model\topping.cpp
+	<fstream>
+	"topping.h"
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\repo\repository.cpp
+	"repository.h"
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\repo\repository.h
+
+1513076075 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\repo\toppingrepo.cpp
+	"toppingrepo.h"
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\management.cpp
+	"management.h"
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\orders.cpp
+	"orders.h"
+
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\orders.h
+	"pizza.h"
+	"topping.h"
+	"toppingrepo.h"
+	<vector>
+	<iostream>
+
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\ui\mainui.cpp
+	"mainui.h"
+

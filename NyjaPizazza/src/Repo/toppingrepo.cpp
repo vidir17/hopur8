@@ -14,7 +14,7 @@ ToppingRepo::~ToppingRepo()
 void ToppingRepo::storeAllToppings(const vector<Topping> &toppings){
 
     ofstream fout;
-    fout.open("toppings.bin", ios::binary);
+    fout.open("toppings.bin", ios::binary|ios::app); //baetti vid app
 
     int toppingCount = toppings.size();
 

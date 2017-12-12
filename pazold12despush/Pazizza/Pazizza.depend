@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1512912278 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\main.cpp
+	"mainui.h"
+	<iostream>
+
+1512913402 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\ui\mainui.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	"buatilpontun.h"
+	"umsjon.h"
+	"bakari.h"
+	"afgreidsla.h"
+
+1512914282 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\gagnasafn.cpp
+	"gagnasafn.h"
+
+1512914120 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\gagnasafn.h
+	<vector>
+	<fstream>
+	<stdlib.h>
+	<iostream>
+	<ctime>
+
+1512835826 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\pontunrepo.cpp
+	"pontunrepo.h"
+
+1512836502 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\pontunrepo.h
+	"gagnasafn.h"
+
+1512835919 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\buatilpontun.h
+	"pontunrepo.h"
+
+1512836502 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\buatilpontun.cpp
+	"buatilpontun.h"
+
+1512838527 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\umsjon.h
+	"umsjonrepo.h"
+
+1512838518 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\umsjonrepo.h
+	"gagnasafn.h"
+
+1512838589 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\umsjonrepo.cpp
+	"umsjonrepo.h"
+
+1512838518 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\umsjon.cpp
+	"umsjon.h"
+
+1512914282 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\ui\mainui.cpp
+	<iostream>
+	"mainui.h"
+
+1512843398 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\bakarirepo.cpp
+	"bakarirepo.h"
+
+1512843411 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\bakarirepo.h
+	"gagnasafn.h"
+
+1512843454 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\bakari.h
+	"bakarirepo.h"
+
+1512843531 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\bakari.cpp
+	"bakari.h"
+
+1512913255 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\repository\afgreidslarepo.cpp
+	"afgreidslarepo.h"
+
+1512913255 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\repository\afgreidslarepo.h
+	"gagnasafn.h"
+
+1512913285 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\src\services\afgreidsla.cpp
+	"afgreidsla.h"
+
+1512911628 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\pazizza\include\services\afgreidsla.h
+	"afgreidslarepo.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\main.cpp
+	"mainui.h"
+	<iostream>
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\ui\mainui.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	"buatilpontun.h"
+	"umsjon.h"
+	"bakari.h"
+	"afgreidsla.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\services\buatilpontun.h
+	"pontunrepo.h"
+
+1513086799 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\repository\pontunrepo.h
+	"gagnasafn.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\repository\gagnasafn.h
+	<vector>
+	<fstream>
+	<stdlib.h>
+	<iostream>
+	<ctime>
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\services\umsjon.h
+	"umsjonrepo.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\repository\umsjonrepo.h
+	"gagnasafn.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\services\bakari.h
+	"bakarirepo.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\repository\bakarirepo.h
+	"gagnasafn.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\services\afgreidsla.h
+	"afgreidslarepo.h"
+
+1512885748 c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\include\repository\afgreidslarepo.h
+	"gagnasafn.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\repository\bakarirepo.cpp
+	"bakarirepo.h"
+
+1513090090 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\repository\gagnasafn.cpp
+	"gagnasafn.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\repository\pontunrepo.cpp
+	"pontunrepo.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\repository\umsjonrepo.cpp
+	"umsjonrepo.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\services\bakari.cpp
+	"bakari.h"
+
+1512885748 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\services\buatilpontun.cpp
+	"buatilpontun.h"
+
+1513085054 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\services\umsjon.cpp
+	"umsjon.h"
+
+1513084826 source:c:\users\vidirsnaer\desktop\hopur8-0e72e914420be295ae14272f939e44802e0e55ce\pazizza\src\ui\mainui.cpp
+	<iostream>
+	"mainui.h"
+

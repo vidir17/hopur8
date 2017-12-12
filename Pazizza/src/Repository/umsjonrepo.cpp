@@ -10,7 +10,7 @@ void Umsjonrepo::toppings()
     Gagnasafn gagnasafn;
     gagnasafn.insert_new_topping();
 }
-void Umsjonrepo::medlaeti()
+/*void Umsjonrepo::medlaeti()
 {
     Gagnasafn gagnasafn;
     gagnasafn.insert_new_medlaeti();
@@ -25,3 +25,4 @@ void Umsjonrepo::staerdir()
     Gagnasafn gagnasafn;
     gagnasafn.insert_new_staerdir();
 }
+*/

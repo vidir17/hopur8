@@ -8,7 +8,7 @@ void Umsjon::new_menu()
     Umsjonrepo umsjonrepo;
     umsjonrepo.menu();
 
-}
+}/*
 void Umsjon::new_toppings()
 {
     system("CLS");
@@ -40,4 +40,4 @@ void Umsjon::new_staerdir()
     cout << "------------------" << endl;
     Umsjonrepo umsjonrepo;
     umsjonrepo.staerdir();
-}
+}*/

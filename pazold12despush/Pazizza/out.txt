@@ -1,0 +1,93 @@
+Nr.
+****
+Pizza: margartia
+Alegg: svepp
+Staerd: 16
+Verd: 1500
+
+
+Nr.
+****
+Pizza: thebigwonder
+Alegg: thewow
+Staerd: 4
+Verd: 5000
+
+
+Nr.
+****
+Pizza: Hagkaupspizza
+Alegg: engin
+Staerd: 4
+Verd: 500
+
+
+Nr.
+****
+Pizza: newpizza
+Alegg: all
+Staerd: 16
+Verd: 2000
+
+Nr.
+****
+Pizza: pizzaname
+Alegg: sveppir
+Staerd: 16
+Verd: 200
+Umsogn: 
+
+Nr.
+****
+Pizza: pizzaname
+Alegg: alegg
+Staerd: staerd
+Verd: verdid
+Umsogn: Nr.
+****
+Pizza: nafn
+Alegg: al
+Staerd: 19
+Verd: 20
+Umsogn: 
+
+Nr.
+****
+Pizza: pizz
+Alegg: al
+Staerd: 1
+Verd: 0
+Umsogn:  haha hjdkljfs
+
+Nr.
+****
+Pizza: margarita
+Alegg: sveppir
+Staerd: 16
+Verd: 2000
+Umsogn:  er an aleggja
+
+Nr.
+****
+Pizza: margarita
+Alegg: allt
+Staerd: 20
+Verd: 10
+Umsogn: er an aleggja
+
+Nr.
+****
+Pizza: nafn
+Alegg: 20
+Staerd: 20
+Verd: 20
+Umsogn: alkjsd lksj lksj
+
+Nr.
+****
+Pizza: allskonar pizza
+Alegg: allt
+Staerd: 8
+Verd: 2000
+Umsogn: pizzan er i bodi allskonar
+

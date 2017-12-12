@@ -1,0 +1,38 @@
+Pizza
+******
+Simi: 6638404
+Botn: Klassiskur
+Size: 16
+Alegg: banana
+Alegg: apple
+Alegg: bacon
+----
+Pizza
+******
+Simi: 123-4567
+Botn: Thunnbotna
+Size: 12
+Alegg: laukur
+Alegg: hvitlaukur
+----
+Pizza
+******
+Simi: 123-3456
+Botn Italskur
+Size: 12
+Alegg: pepperoni
+Alegg: sveppir
+Alegg: pepperoni
+Alegg: bacon
+Alegg: paprika
+Alegg: jalapeno
+----
+Pizza
+******
+Simi: 6638404
+Botn: Klassiskur
+Size: 16
+Alegg: bacon
+Alegg: pepperoni
+Alegg: sveppir
+----
