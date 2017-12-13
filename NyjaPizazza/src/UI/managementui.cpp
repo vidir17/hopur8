@@ -4,37 +4,34 @@ ManagementUI::ManagementUI()
 {
     //ctor
 }
-
-ManagementUI::~ManagementUI()
-{
-    //dtor
-}
-
 void ManagementUI::Choices(){
-
     char choice = '\0';
-
-    cout << "1: make pizza" << endl;
-    cout << "2: add topping" << endl;
+    cout << "1: add topping" << endl;
+    cout << "2: make pizza" << endl;
     cout << "3: view menu" << endl;
     cout << "4: view pending orders" << endl;
     cout << "5: view orders in the making" << endl;
     cout << "6: view finished orders" << endl;
-
     cin >> choice;
-
-   /* if(choice == '1'){
-
+   /* if(choice == '2'){
     Management management;
     management.addPizza();
     }
+*/
+    if(choice == '1'){
+        int counter = 0;
+        cout << "Add new toppings and price to list" << endl;
+        cout << "----------------------------------" << endl;
+        //Topping topping;
+        //Management management;
+        vector<Topping> myVec = management.returnAllToppingDataToUI();
 
-   else(choice == '2'){
-
-    Management management;
-    management.addTopping();
-
+        for (int i = 0; i < myVec.size(); i++){
+            counter++;
+            cout << counter << ". " << "Topping " << myVec[i].getName() << "| Price " << myVec[i].getPrice() << endl;
+        }
     }
+    /*
     else if(choice == '3'){
 
     Management management;

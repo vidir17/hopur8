@@ -1,0 +1,7 @@
+pepperoni,30
+rjomaostur,30
+jalapeno,30
+paprika,30
+ananas,30
+skinka,30
+hakk,30

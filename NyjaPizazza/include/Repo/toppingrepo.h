@@ -1,6 +1,6 @@
 #ifndef TOPPINGREPO_H
 #define TOPPINGREPO_H
-
+#include <sstream>
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -12,7 +12,7 @@ class ToppingRepo
 {
     public:
         ToppingRepo();
-        virtual ~ToppingRepo();
+        //virtual ~ToppingRepo();
 
         void storeAllToppings(const vector<Topping> &toppings);
         vector<Topping> retrieveAllToppings();

@@ -1,30 +1,25 @@
 #include "topping.h"
-
 Topping::Topping()
 {
     name = "";
     price = 0;
 }
-
 Topping::Topping(string name, int price){
-
     this->name = name;
     this->price = price;
 }
-
 string Topping::getName(){
     return name;
 }
 int Topping::getPrice(){
     return price;
 }
-void Topping::setName(){
-    this->name = name;
+void Topping::setName(string newname){
+    this->name= newname;
 }
-void Topping::setPrice(){
-    this->price = price;
+void Topping::setPrice(int newprice){
+    this->price = newprice;
 }
-
 /*
 void Topping::write(ofstream& fout) const {
 
@@ -35,9 +30,9 @@ void Topping::write(ofstream& fout) const {
 
     fout.write((char*) (&price), sizeof(double));
 
-}
-void Topping::read(ifstream& fin){
-
+}*/
+void Topping::read(){
+    /*
     int stringLength;
 
     fin.read((char*)(&stringLength), sizeof(int));
@@ -45,9 +40,10 @@ void Topping::read(ifstream& fin){
 
     fin.read((char*)(&price), sizeof(double));
 
-    delete [] str;
-}
+    delete [] str;*/
 
+}
+/*
 istream& operator >>(istream& in, Topping& topping){
 
     cout << "Name: ";
@@ -59,11 +55,12 @@ istream& operator >>(istream& in, Topping& topping){
 
     return in;
 }
+*/
 
 ostream& operator << (ostream& out, const Topping& topping){
 
-    out << "Topping: " << topping.name << " ";
-    out << "Price: " << topping.price;
+    out << "Topping: " << topping.name << endl;
+    out << "Price: " << topping.price << endl;
 
     return out;
-}*/
+}

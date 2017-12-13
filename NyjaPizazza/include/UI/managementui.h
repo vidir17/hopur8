@@ -10,11 +10,15 @@ class ManagementUI
 {
     public:
         ManagementUI();
-        virtual ~ManagementUI();
+
         void Choices();
 
+
     private:
-        ToppingRepo ToppingRepo;
+        Management management;
+        ToppingRepo toppingRepo;
+        Topping topping;
+
 };
 
 #endif // MANAGEMENTUI_H

@@ -7,13 +7,13 @@ using namespace std;
 Pizza::Pizza()
 {
     name = "";
-    size = 0;
+    sizee = 0;
     base = 0;
 }
-Pizza::Pizza(string name, int size, int base){
+Pizza::Pizza(string name, int sizee, int base){
 
     this->name = name;
-    this->size = size;
+    this->sizee = sizee;
     this->base = base;
 
 }
@@ -22,7 +22,7 @@ string Pizza::getName(){
     return name;
 }
 int Pizza::getSize(){
-    return size;
+    return sizee;
 }
 int Pizza::getBase(){
     return base;
@@ -34,7 +34,7 @@ void Pizza::setName(){
     name = name;
 }
 void Pizza::setSize(){
-    size = size;
+    sizee = sizee;
 }
 void Pizza::setBase(){
     base = base;
@@ -42,6 +42,7 @@ void Pizza::setBase(){
 void setVec(vector<Topping> pizzaTopping){
     pizzaTopping = pizzaTopping;
 }
+
 
 /*vector<Topping> Pizza::AllPizzaTopping(string topping){
 

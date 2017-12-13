@@ -1,6 +1,4 @@
 #include "management.h"
-
-
 /*void Management::addPizza()
 {
     system("CLS");
@@ -9,16 +7,17 @@
     Repository umsjonrepo;
     umsjonrepo.menu();
 
-}
+}*/
 void Management::addTopping()
 {
-    system("CLS");
-    cout << "Add toppings and price" << endl;
-    cout << "----------------------" << endl;
-    Repository umsjonrepo;
-    umsjonrepo.toppings();
+    myVec =  toppingRepo.retrieveAllToppings();
 }
-
+vector<Topping> Management::returnAllToppingDataToUI(){
+    //Populating the myVec vector with data
+    addTopping();
+    return myVec;
+}
+/*
 void Management::addPizza(){
 
 
@@ -72,5 +71,4 @@ void Management::addPizza(){
     }
         toppingRepo.storeAllToppings(toppings);
 }
-
  }*/

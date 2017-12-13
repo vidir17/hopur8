@@ -15,8 +15,6 @@ void Gagnasafn::pontun_timi()
         <<  timi->tm_mday << " Time: "
         <<  timi->tm_hour << ":"
         <<  timi->tm_min << "."
-
-
         <<  timi->tm_sec;
         fout.close();
 

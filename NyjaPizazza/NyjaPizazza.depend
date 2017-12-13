@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1513076765 source:c:\users\skata\desktop\nyjapizazza\main.cpp
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\main.cpp
 	"mainui.h"
 	<iostream>
 
-1513086789 c:\users\skata\desktop\nyjapizazza\include\ui\mainui.h
+1513159147 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\ui\mainui.h
 	"pizza.h"
 	"topping.h"
 	"managementui.h"
@@ -11,165 +11,77 @@
 	<iostream>
 	<string>
 
-1513027525 source:c:\users\skata\desktop\nyjapizazza\src\model\pizza.cpp
-	"pizza.h"
-	<stddef.h>
-	<fstream>
-
-1513098008 c:\users\skata\desktop\nyjapizazza\include\model\pizza.h
+1513172651 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\model\pizza.h
 	<iostream>
 	<vector>
 	<stddef.h>
 	<fstream>
 	"topping.h"
 
-1513097946 c:\users\skata\desktop\nyjapizazza\include\model\topping.h
+1513166569 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\model\topping.h
 	<iostream>
 	<string>
 	<fstream>
 
-1513098030 source:c:\users\skata\desktop\nyjapizazza\src\model\topping.cpp
+1513172651 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\ui\managementui.h
+	"pizza.h"
+	"management.h"
+
+1513174040 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\management.h
+	"pizza.h"
+	"topping.h"
+	"toppingrepo.h"
+	<vector>
+	<iostream>
+	<string>
+
+1513163568 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\repo\toppingrepo.h
+	<sstream>
+	<iostream>
+	<fstream>
+	<vector>
+	"pizza.h"
+
+1513161107 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\model\pizza.cpp
+	"pizza.h"
+
+1513171698 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\model\topping.cpp
 	"topping.h"
 
-1513028745 source:c:\users\skata\desktop\nyjapizazza\src\repo\repository.cpp
+1513075862 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\repo\repository.cpp
 	"repository.h"
 
-1513032279 c:\users\skata\desktop\nyjapizazza\include\repo\repository.h
+1513075862 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\repo\repository.h
 
-1513031568 c:\users\skata\desktop\nyjapizazza\include\ui\valmyndui.h
-
-1513097946 c:\users\skata\desktop\nyjapizazza\include\services\management.h
-	"pizza.h"
-	"topping.h"
-	"toppingrepo.h"
-	<vector>
-	<iostream>
-	<string>
-
-1513098098 source:c:\users\skata\desktop\nyjapizazza\src\repo\toppingrepo.cpp
+1513175395 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\repo\toppingrepo.cpp
 	"toppingrepo.h"
 
-1513083620 c:\users\skata\desktop\nyjapizazza\include\repo\toppingrepo.h
-	<iostream>
-	<fstream>
-	<vector>
-	"pizza.h"
-
-1513098135 source:c:\users\skata\desktop\nyjapizazza\src\services\management.cpp
-	"management.h"
-
-1513090303 source:c:\users\skata\desktop\nyjapizazza\src\services\orders.cpp
-	"orders.h"
-
-1513090287 c:\users\skata\desktop\nyjapizazza\include\services\orders.h
-	"pizza.h"
-	"topping.h"
-	"toppingrepo.h"
-	<vector>
-	<iostream>
-
-1513088462 source:c:\users\skata\desktop\nyjapizazza\src\ui\mainui.cpp
-	"mainui.h"
-
-1513028745 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\repo\repository.cpp
-	"repository.h"
-
-1513032279 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\repo\repository.h
-
-1513098135 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\services\management.cpp
-	"management.h"
-
-1513097946 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\services\management.h
-	"pizza.h"
-	"topping.h"
-	"toppingrepo.h"
-	<vector>
-	<iostream>
-	<string>
-
-1513098008 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\model\pizza.h
-	<iostream>
-	<vector>
-	<stddef.h>
-	<fstream>
-	"topping.h"
-
-1513097946 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\model\topping.h
-	<iostream>
-	<string>
-	<fstream>
-
-1513083620 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\repo\toppingrepo.h
-	<iostream>
-	<fstream>
-	<vector>
-	"pizza.h"
-
-1513090303 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\services\orders.cpp
-	"orders.h"
-
-1513090287 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\services\orders.h
-	"pizza.h"
-	"topping.h"
-	"toppingrepo.h"
-	<vector>
-	<iostream>
-
-1513088462 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\ui\mainui.cpp
-	"mainui.h"
-
-1513086789 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\ui\mainui.h
-	"pizza.h"
-	"topping.h"
-	"managementui.h"
-	<stdio.h>
-	<iostream>
-	<string>
-
-1513076765 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\main.cpp
-	"mainui.h"
-	<iostream>
-
-1513097974 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\model\pizza.cpp
-	"pizza.h"
-
-1513098030 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\model\topping.cpp
-	"topping.h"
-
-1513098098 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\repo\toppingrepo.cpp
-	"toppingrepo.h"
-
-1513083620 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\ui\managementui.h
-	"pizza.h"
-	"management.h"
-
-1513098174 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\ui\managementui.cpp
-	"managementui.h"
-
-1513090296 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\services\chef.cpp
+1513159147 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\chef.cpp
 	"chef.h"
 
-1513090287 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\services\chef.h
+1513159147 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\chef.h
 
-1513090310 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\src\services\service.cpp
-	"service.h"
-
-1513090287 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjapizazza\include\services\service.h
-
-1513083620 c:\users\skata\desktop\nyjapizazza\include\ui\managementui.h
-	"pizza.h"
+1513174085 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\management.cpp
 	"management.h"
 
-1513090296 source:c:\users\skata\desktop\nyjapizazza\src\services\chef.cpp
-	"chef.h"
+1513159147 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\orders.cpp
+	"orders.h"
 
-1513090287 c:\users\skata\desktop\nyjapizazza\include\services\chef.h
+1513159147 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\orders.h
+	"pizza.h"
+	"topping.h"
+	"toppingrepo.h"
+	<vector>
+	<iostream>
 
-1513090310 source:c:\users\skata\desktop\nyjapizazza\src\services\service.cpp
+1513159147 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\services\service.cpp
 	"service.h"
 
-1513090287 c:\users\skata\desktop\nyjapizazza\include\services\service.h
+1513159147 c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\include\services\service.h
 
-1513098174 source:c:\users\skata\desktop\nyjapizazza\src\ui\managementui.cpp
+1513159147 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\ui\mainui.cpp
+	"mainui.h"
+
+1513174413 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjapizazza\src\ui\managementui.cpp
 	"managementui.h"
 
