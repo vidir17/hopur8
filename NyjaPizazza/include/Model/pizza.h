@@ -14,14 +14,14 @@ class Pizza
 {
     public:
         Pizza();
-        Pizza(string name, int size, int base);
+        Pizza(string name, int sizee, int base);
         string getName();
         int getSize();
         int getBase();
         //void getToppings();
-        void setName();
-        void setSize();
-        void setBase();
+        void setName(string name);
+        void setSize(int sizee);
+        void setBase(int base);
         vector<Topping> getpizzaTopping();
         void setVec(vector<Topping> pizzaTopping);
 
@@ -34,12 +34,13 @@ class Pizza
         friend istream& operator >> (istream& in, Pizza& pizza);
         friend ostream& operator << (ostream& out, const Pizza& pizza); faera i repo*/
 
-    protected:
+
 
     private:
-        string name;
-        int size;
-        int base;
+        Topping *topping;
+        string _name;
+        int _sizee;
+        int _base;
         vector<Topping> pizzaTopping;
 };
 

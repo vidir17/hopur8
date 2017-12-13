@@ -16,20 +16,20 @@ class Topping
 
         string getName();
         int getPrice();
-        void setName();
-        void setPrice();
+        void setName(string name);
+        void setPrice(int price);
 
         /*void write(ofstream& fout) const;
-        void read(ifstream& fin);
+        void read(ifstream& fin);*/
 
         friend istream& operator >> (istream& in, Topping& topping);
-        friend ostream& operator << (ostream& out, const Topping& topping);*/
+        friend ostream& operator << (ostream& out, const Topping& topping);
 
-    protected:
+
 
     private:
-        string name;
-        int price;
+        string _name;
+        int _price;
 };
 
 #endif // TOPPING_H

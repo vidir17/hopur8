@@ -8,11 +8,13 @@ void MainUI::mainMenu(){ // Menu for user printed out on the screen
 
     char choice = '\0';
 
+    while(choice != 'q' || choice != 'Q'){
+
     cout << "m: for management" << endl;
     cout << "o: for taking orders" << endl;
     cout << "c: for chefs" << endl;
     cout << "s: for service" << endl;
-    cout << "Any other key to quit!" << endl;
+    cout << "q: to quit!" << endl;
 
     cin >> choice;
 
@@ -21,7 +23,7 @@ void MainUI::mainMenu(){ // Menu for user printed out on the screen
             ManagementUI management;
             management.Choices();
 
-
+}
     }
    /* else(choice == 'o' || choice == 'O'){
 

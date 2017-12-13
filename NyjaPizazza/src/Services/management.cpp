@@ -10,15 +10,17 @@
     umsjonrepo.menu();
 
 }
+*/
 void Management::addTopping()
-{
-    system("CLS");
-    cout << "Add toppings and price" << endl;
-    cout << "----------------------" << endl;
-    Repository umsjonrepo;
-    umsjonrepo.toppings();
-}
 
+{
+    //system("CLS");
+    //cout << "Add toppings and price" << endl;
+    //cout << "----------------------" << endl;
+    Repository umsjonrepo;
+    umsjonrepo.addTopping();
+}
+/*
 void Management::addPizza(){
 
 
@@ -44,6 +46,12 @@ void Management::addPizza(){
         cout << endl;
 
 }
+void Management::viewTopping(){
+
+    lesa úr skjali sem búið er til í addTopping
+}
+
+
  void Management::addTopping(){
 
 
@@ -73,4 +81,11 @@ void Management::addPizza(){
         toppingRepo.storeAllToppings(toppings);
 }
 
- }*/
+ }
+write(ofstream& fout) const{
+
+}
+read(ifstream& fin){
+
+}
+*/

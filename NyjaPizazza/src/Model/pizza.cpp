@@ -6,38 +6,38 @@ using namespace std;
 
 Pizza::Pizza()
 {
-    name = "";
-    size = 0;
-    base = 0;
+    _name = "";
+    _sizee = 0;
+    _base = 0;
 }
-Pizza::Pizza(string name, int size, int base){
+Pizza::Pizza(string name, int sizee, int base){
 
-    this->name = name;
-    this->size = size;
-    this->base = base;
+    setName(name);
+    setSize(sizee);
+    setBase(base);
 
 }
 
 string Pizza::getName(){
-    return name;
+    return _name;
 }
 int Pizza::getSize(){
-    return size;
+    return _sizee;
 }
 int Pizza::getBase(){
-    return base;
+    return _base;
 }
 vector<Topping> Pizza::getpizzaTopping(){
     return pizzaTopping;
 }
-void Pizza::setName(){
-    name = name;
+void Pizza::setName(string name){
+    _name = name;
 }
-void Pizza::setSize(){
-    size = size;
+void Pizza::setSize(int sizee){
+    _sizee = sizee;
 }
-void Pizza::setBase(){
-    base = base;
+void Pizza::setBase(int base){
+    _base = base;
 }
 void setVec(vector<Topping> pizzaTopping){
     pizzaTopping = pizzaTopping;

@@ -1,6 +1,7 @@
 #ifndef REPOSITORY_H
 #define REPOSITORY_H
-
+#include "topping.h"
+#include "pizza.h"
 
 class Repository
 {
