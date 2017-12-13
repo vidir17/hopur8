@@ -1,0 +1,5 @@
+mamma,13
+afi,3
+kata,3
+giibb,3
+KOK,2

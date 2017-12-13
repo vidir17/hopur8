@@ -1,0 +1,14 @@
+KATA, 0, 6946584
+
+Kata s‘ta, 3, 4
+
+kata, 3, 3
+
+kata,5,8
+
+kata,4,4
+kata,4,4babb,1,1Kata,1,10
+LIVERPOOL,0,0
+blubb,4,4
+bib,1,1
+,0,0
