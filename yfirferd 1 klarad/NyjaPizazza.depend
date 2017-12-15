@@ -441,19 +441,19 @@
 1513295960 source:c:\users\vidirsnaer\desktop\3viknaafangi\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\serviceui.cpp
 	"serviceui.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\main.cpp
+1513336651 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\main.cpp
 	"mainui.h"
 	<iostream>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\mainui.h
+1513342887 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\mainui.h
+	<stdlib.h>
 	"managementui.h"
 	"orders.h"
 	"chefui.h"
 	"orderui.h"
-	"serviceui.h"
 	"finishorder.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\managementui.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\managementui.h
 	<iostream>
 	"pizza.h"
 	"topping.h"
@@ -463,18 +463,18 @@
 	"baker.h"
 	<vector>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\model\pizza.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\model\pizza.h
 	<iostream>
 	<vector>
 	<stddef.h>
 	<fstream>
 	"topping.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\model\topping.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\model\topping.h
 	<iostream>
 	<string>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\management.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\management.h
 	"pizza.h"
 	"topping.h"
 	"repository.h"
@@ -483,11 +483,11 @@
 	<iostream>
 	<string>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\repo\repository.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\repo\repository.h
 	"topping.h"
 	"pizza.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\repo\toppingrepo.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\repo\toppingrepo.h
 	<ctime>
 	<iostream>
 	<fstream>
@@ -496,13 +496,13 @@
 	"topping.h"
 	"pizza.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\service.h
+1513339013 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\service.h
 	"toppingrepo.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\orderui.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\orderui.h
 	"orders.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\orders.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\orders.h
 	"pizza.h"
 	"topping.h"
 	"toppingrepo.h"
@@ -510,10 +510,10 @@
 	<vector>
 	<iostream>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\baker.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\baker.h
 	"toppingrepo.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\chefui.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\chefui.h
 	<iostream>
 	"pizza.h"
 	"topping.h"
@@ -521,55 +521,65 @@
 	"chef.h"
 	<vector>
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\chef.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\chef.h
 	"chef.h"
 	"toppingrepo.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\serviceui.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\ui\serviceui.h
 	"service.h"
 
-1513323610 c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\finishorder.h
+1513323610 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\services\finishorder.h
 	"toppingrepo.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\model\pizza.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\model\pizza.cpp
 	"pizza.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\model\topping.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\model\topping.cpp
 	"topping.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\repo\toppingrepo.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\repo\toppingrepo.cpp
 	"toppingrepo.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\baker.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\baker.cpp
 	"baker.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\chef.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\chef.cpp
 	"chef.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\finishorder.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\finishorder.cpp
 	"finishorder.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\management.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\management.cpp
 	"management.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\orders.cpp
+1513323610 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\orders.cpp
 	"orders.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\service.cpp
+1513339023 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\services\service.cpp
 	"service.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\chefui.cpp
+1513341788 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\chefui.cpp
 	"chefui.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\mainui.cpp
+1513342887 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\mainui.cpp
 	"mainui.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\managementui.cpp
-	"managementui.h"
-
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\orderui.cpp
+1513336257 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\orderui.cpp
 	"orderui.h"
 
-1513323610 source:c:\users\skata\desktop\verklegtnamskeid\hopur8\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\serviceui.cpp
+1513338149 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\serviceui.cpp
 	"serviceui.h"
+
+1513338149 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\ui\managementui.cpp
+	"managementui.h"
+
+1513341345 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\exceptions\invalidchefui.cpp
+	"invalidchefui.h"
+
+1513341342 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\exceptions\invalidchefui.h
+
+1513341350 source:c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\src\exceptions\invalidmainuiexceptions.cpp
+	"invalidmainuiexceptions.h"
+
+1513341348 c:\users\skata\desktop\new folder\nyjastpizazza(klarad)-vidir-hlynur-katrin\include\exceptions\invalidmainuiexceptions.h
 
