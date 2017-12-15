@@ -2,7 +2,7 @@
 #define REPO_H
 #include <fstream>
 #include <iostream>
-#include "gagnasafn.h"
+//#include "gagnasafn.h"
 
 class Repo
 {

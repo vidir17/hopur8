@@ -1,0 +1,4 @@
+sveppir,0
+sveppir,0
+sveppir,200
+ananas,140

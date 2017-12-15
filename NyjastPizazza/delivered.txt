@@ -1,0 +1,10 @@
+Pizza: nafnid,Alegg: allt,Size:16,Verd: 2000
+Pizza: joispizzafatboi,Alegg: fita,Size:16,Verd: 3000
+----
+Pizza: nafnid,Alegg: allt,Size:16,Verd: 2000
+Pizza: joispizzafatboi,Alegg: fita,Size:16,Verd: 3000
+----
+Pizza: Hlynski,Alegg: Sveppir-pepperoni-ananas,Size:16,Verd: 2000
+----
+Pizza: joispizzafatboi,Alegg: fita,Size:16,Verd: 3000
+----

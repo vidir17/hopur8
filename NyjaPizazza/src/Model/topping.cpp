@@ -1,24 +1,38 @@
 #include "topping.h"
 Topping::Topping()
 {
-    name = "";
-    price = 0;
+    _name = "";
+    _price = 0;
 }
 Topping::Topping(string name, int price){
+<<<<<<< HEAD
     this->name = name;
     this->price = price;
+=======
+
+    setName(name);
+    setPrice(price);
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
 }
 string Topping::getName(){
-    return name;
+    return _name;
 }
 int Topping::getPrice(){
-    return price;
+    return _price;
 }
+<<<<<<< HEAD
 void Topping::setName(string newname){
     this->name= newname;
 }
 void Topping::setPrice(int newprice){
     this->price = newprice;
+=======
+void Topping::setName(string name){
+    _name = name;
+}
+void Topping::setPrice(int price){
+    _price = price;
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
 }
 /*
 void Topping::write(ofstream& fout) const {
@@ -42,9 +56,13 @@ void Topping::read(){
 
     delete [] str;*/
 
+<<<<<<< HEAD
 }
 /*
 istream& operator >>(istream& in, Topping& topping){
+=======
+istream& operator >>(istream& in, Topping topping){
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
 
     cout << "Name: ";
     in >> ws;

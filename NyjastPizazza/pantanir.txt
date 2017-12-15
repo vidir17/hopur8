@@ -1,0 +1,4 @@
+Pizza: Jonugrill,Alegg: Sveppir-ananas-bananar,Size:16,Verd: 3000
+Phone Number: 123-4567
+Pontun gerd: 2017-12-15 Time: 5:28.24
+----

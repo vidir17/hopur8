@@ -7,9 +7,16 @@
     Repository umsjonrepo;
     umsjonrepo.menu();
 
+<<<<<<< HEAD
 }*/
+=======
+}
+*/
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
 void Management::addTopping()
+
 {
+<<<<<<< HEAD
     myVec =  toppingRepo.retrieveAllToppings();
 }
 vector<Topping> Management::returnAllToppingDataToUI(){
@@ -17,6 +24,14 @@ vector<Topping> Management::returnAllToppingDataToUI(){
     addTopping();
     return myVec;
 }
+=======
+    //system("CLS");
+    //cout << "Add toppings and price" << endl;
+    //cout << "----------------------" << endl;
+    Repository umsjonrepo;
+    umsjonrepo.addTopping();
+}
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
 /*
 void Management::addPizza(){
 
@@ -43,6 +58,12 @@ void Management::addPizza(){
         cout << endl;
 
 }
+void Management::viewTopping(){
+
+    lesa úr skjali sem búið er til í addTopping
+}
+
+
  void Management::addTopping(){
 
 
@@ -71,4 +92,16 @@ void Management::addPizza(){
     }
         toppingRepo.storeAllToppings(toppings);
 }
+<<<<<<< HEAD
  }*/
+=======
+
+ }
+write(ofstream& fout) const{
+
+}
+read(ifstream& fin){
+
+}
+*/
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474

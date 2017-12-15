@@ -1,0 +1,8 @@
+Pizza: Hlynski,Alegg: Sveppir-pepperoni-ananas,Size:16,Verd: 2000
+Pizza: Jonugrill,Alegg: Sveppir-ananas-bananar,Size:16,Verd: 3000
+----
+Pizza: Newpizza,Alegg: Sveppir,Size:12,Verd: 2000
+----
+Pizza: Hlynski,Alegg: Sveppir-pepperoni-ananas,Size:16,Verd: 2000
+112
+----

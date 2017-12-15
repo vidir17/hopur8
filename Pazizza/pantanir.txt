@@ -1,10 +1,8 @@
-Nr.1
-****
+Simanumer:
 Pizza: Svepperoni
-Alegg: Sveppir&Pepperoni
-Staerd: 16
+Alegg: Sveppir og pepperoni
 Verd: 2300kr
-
+Vidbot: -pepperoni, 2100kr heildarverd
 Pontun gerd: 2017-12-10 Time: 20:37.37
 Nr. 
 ****

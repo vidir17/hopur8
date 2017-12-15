@@ -15,17 +15,29 @@ class Pizza
         int getSize();
         int getBase();
         //void getToppings();
-        void setName();
-        void setSize();
-        void setBase();
+        void setName(string name);
+        void setSize(int sizee);
+        void setBase(int base);
         vector<Topping> getpizzaTopping();
         void setVec(vector<Topping> pizzaTopping);
         friend istream& operator >> (istream& in, Pizza& pizza);
+<<<<<<< HEAD
         friend ostream& operator << (ostream& out, const Pizza& pizza);
     private:
         string name;
         int sizee;
         int base;
+=======
+        friend ostream& operator << (ostream& out, const Pizza& pizza); faera i repo*/
+
+
+
+    private:
+        Topping *topping;
+        string _name;
+        int _sizee;
+        int _base;
+>>>>>>> 7ed9d59251ce10c48cf580206a487f6b7d863474
         vector<Topping> pizzaTopping;
 };
 
