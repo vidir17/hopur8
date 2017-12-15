@@ -1,0 +1,2 @@
+Pizza: Hawaii,Alegg: skinka, ananas,Size:12,Verd: 1500
+Pizza: Veganblossom,Alegg: gurka ananas,Size:12,Verd: 1500

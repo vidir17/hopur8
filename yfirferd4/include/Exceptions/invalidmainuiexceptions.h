@@ -1,0 +1,8 @@
+#ifndef INVALIDMAINUIEXCEPTIONS_H
+#define INVALIDMAINUIEXCEPTIONS_H
+
+
+class InvalidMainUIExceptions
+{};
+
+#endif // INVALIDMAINUIEXCEPTIONS_H
