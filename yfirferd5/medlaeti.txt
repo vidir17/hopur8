@@ -1,0 +1,2 @@
+Drink: Coca cola, Price: 300kr
+Drink: Fanta, Price 300kr

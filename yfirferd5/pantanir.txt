@@ -1,0 +1,8 @@
+Pizza: Haskolapizza,Alegg: Pepperoni-Sveppir-Thistilhjortu,Size:16,Verd: 1800
+Phone Number: 6617113
+Pontun gerd: 2017-12-15 Time: 11:51.23
+----
+Pizza: Veganblossom,Alegg: gurka ananas,Size:12,Verd: 1500
+Drink: Coca cola, Price: 300kr
+Pizza: Veganblossom,Alegg: gurka ananas,Size:12,Verd: 1500
+Drink: Fanta, Price 300kr
